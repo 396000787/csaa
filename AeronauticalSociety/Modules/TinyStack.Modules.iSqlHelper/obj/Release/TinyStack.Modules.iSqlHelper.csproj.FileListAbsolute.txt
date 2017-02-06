@@ -1,0 +1,11 @@
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\bin\Release\TinyStack.Modules.iSqlHelper.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\bin\Release\TinyStack.Modules.iSqlHelper.pdb
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\bin\Release\MySql.Data.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\bin\Release\TinyStack.Modules.iUtility.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\bin\Release\Newtonsoft.Json.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\bin\Release\Polenter.SharpSerializer.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\bin\Release\TinyStack.Modules.iUtility.pdb
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\obj\Release\TinyStack.Modules.iSqlHelper.csprojResolveAssemblyReference.cache
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\obj\Release\TinyStack.Modules.iSqlHelper.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\obj\Release\TinyStack.Modules.iSqlHelper.pdb

@@ -1,0 +1,37 @@
+﻿/*主要内容*/
+.zk_content {
+    padding-top: 45px;
+}
+
+/*#region 按钮 */
+.zk_button {
+    padding:5px 10px;
+}
+
+    .zk_button.button-link {
+        color: blue;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+
+/*#endregion */
+
+.bar-zk {
+    background-color: #0060ba;
+}
+
+    .bar-zk h1 {
+        color: #fff;
+    }
+
+.header-left .btn-zk {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+}

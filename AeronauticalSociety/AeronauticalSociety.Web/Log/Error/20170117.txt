@@ -1,0 +1,346 @@
+2017-01-17 15:59:27 462 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 15:59:27 967 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:12:27 852 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:12:28 331 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:12:46 489 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:12:47 790 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:14:23 397 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:14:23 896 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:15:16 169 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:15:16 814 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:15:39 846 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:15:41 217 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:15:57 242 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 16:16:53 441 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from de2_archives where arcrank!=-1 and ( arcrank=0 or arcrank=0)
+ and typeid' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 315
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 17:30:12 111 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：获取头条新闻
+方法名称：GetHeadline
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetHeadline(Int32 Count) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 56
+==============================================
+2017-01-17 17:30:34 549 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：获取头条新闻
+方法名称：GetHeadline
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetHeadline(Int32 Count) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 56
+==============================================
+2017-01-17 17:32:09 269 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：获取头条新闻
+方法名称：GetHeadline
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetHeadline(Int32 Count) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 56
+==============================================
+2017-01-17 17:32:15 478 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 314
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 17:32:21 257 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：根据新闻类型获取新闻列表
+方法名称：GetNewsByTypeID
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteScalar(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 314
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 88
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(Int32 StartRow, Int32 PageSize, String TypeID, String Author, String Title, String KeyWord) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 163
+==============================================
+2017-01-17 17:32:28 151 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：获取头条新闻
+方法名称：GetHeadline
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetHeadline(Int32 Count) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 56
+==============================================

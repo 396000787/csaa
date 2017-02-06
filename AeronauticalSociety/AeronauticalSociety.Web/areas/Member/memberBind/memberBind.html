@@ -1,0 +1,117 @@
+<ion-view id="memberBind" view-title="会员绑定" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title">会员信息绑定</h1>
+    </div>
+    <ion-content id="memberBind-content" class="scroll-content" scroll="true">
+        <style>
+            #memberBind #memberBind-content {
+                margin-top: 45px;
+            }
+
+            .formListNode {
+                width: 100%;
+                height: 50px;
+                padding: 0px 20px;
+                line-height: 50px;
+                border-radius: 30px;
+                background-color: #e5f4fb;
+                margin-bottom: 5px;
+                vertical-align: middle;
+            }
+
+                .formListNode input {
+                    height: 40px;
+                    width: 100%;
+                    font-size: 18px;
+                    padding-left: 35px;
+                    border: none;
+                    color: #0185cf;
+                    background-color: transparent;
+                    vertical-align: middle;
+                }
+
+
+                    .formListNode input::-webkit-input-placeholder {
+                        color: #0185cf;
+                        font-size: 20px;
+                    }
+
+
+                .formListNode .userName {
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    background-position: 0px center;
+                    background-image: url('../../img/Ico_user.png');
+                }
+
+                .formListNode .memberCode {
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    background-position: 0px center;
+                    background-image: url('../../img/Ico_user21.png');
+                }
+
+            .ErrorPrompt {
+                padding: 0px 10px;
+                font-size: 18px;
+                color: #0160bc;
+            }
+
+            .LoginBtn {
+                width: 100%;
+                background-color: #0085d0;
+                color: #fff;
+                height: 50px;
+                border-radius: 30px;
+                margin-top: 20px;
+                cursor: pointer;
+                font-size: 20px;
+                text-align: center;
+                line-height: 50px;
+            }
+
+            .register {
+                width: 100%;
+                text-align: right;
+                margin-top: 10px;
+                color: #0286d1;
+                cursor: pointer;
+            }
+
+            .formContent {
+                margin-top: 100px;
+                padding: 10px 20px 20px 20px;
+            }
+        </style>
+        <form class="formContent" name="myForm" novalidate>
+            <div>
+                <ul>
+                    <li class="formListNode">
+                        <input placeholder="姓名" name="userName" class="userName" ng-model="data.userName"  ng-focus="userNameGetFocus()" ng-blur="userNameLoseFocus()" />
+                    </li>
+                    <li>
+                        <span style="color:red;height:30px;margin-left:30px; line-height:30px; ">
+                            <span>{{userNameErr}}</span>
+                        </span>
+                    </li>
+                    <li class="formListNode">
+                        <input placeholder="会员证号" class="memberCode" name="memberCode" ng-model="data.memberCode" ng-focus="memberCodeGetFocus()" ng-blur="memberCodeLoseFocus()" />
+                    </li>
+                    <li>
+                        <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+                            <span>{{memberCodeErr}}</span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="LoginBtn" ng-disabled="myForm.$invalid" ng-click="bindMember()">
+                会员绑定
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

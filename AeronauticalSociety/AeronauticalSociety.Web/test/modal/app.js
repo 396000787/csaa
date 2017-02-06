@@ -1,0 +1,1 @@
+﻿var myApp = angular.module("exampleApp", ["exampleApp.Controllers", "exampleApp.Filters", "exampleApp.Directives", "exampleApp.Service", "exampleApp.Values"])

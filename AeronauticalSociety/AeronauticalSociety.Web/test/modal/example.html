@@ -1,0 +1,30 @@
+﻿<!DOCTYPE>
+<!-- use module -->
+<html ng-app="exampleApp">
+<head>
+    <title>Angluar test</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+</head>
+<body>
+    <!-- use controller -->
+    <div class="panel" ng-controller="dayCtrl">
+        <div class="panel-header">
+            <h3>Angular App</h3>
+        </div>
+        <!-- if the day is undefined, show unknow -->
+        <!-- use defined directive "highlight" -->
+        <!-- use filter and data binding -->
+        <h4 highlight="Saturday">Today is {{ day || "unknow" | dayName }}</h4>
+        <h4>Tomorrow is {{ tomorrow || "unknow" | dayName }}</h4>
+    </div>
+    <script src="../../lib/angular/angular.min.js"></script>
+    <script src="exampleValue.js"></script>
+    <script src="exampleController.js"></script>
+    <script src="exampleFilter.js"></script>
+    <script src="exampleDirective.js"></script>
+    <script src="exampleService.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

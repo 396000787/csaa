@@ -1,0 +1,30 @@
+﻿[
+    {
+        "ID": 1,
+        "Index": 1,
+        "MenuName": "出版物",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": false,
+        "TypeID": "12"
+    },
+    {
+
+        "ID": 2,
+        "Index": 2,
+        "MenuName": "电子刊物",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": true,
+        "TypeID": "48"
+    },
+    {
+        "ID": 3,
+        "Index": 3,
+        "MenuName": "论文",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": true,
+        "TypeID": "16"
+    }
+]

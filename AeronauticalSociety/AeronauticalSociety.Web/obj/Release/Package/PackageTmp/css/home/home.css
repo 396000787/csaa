@@ -1,0 +1,74 @@
+#home #home-content {
+    margin-top: 43px;
+}
+
+/*#region 头部滚动 */
+#home .headerSlider .swiper-container {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+    #home .headerSlider .swiper-container img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #home .headerSlider .swiper-container .swiper-title {
+        position: absolute;
+        z-index: 400;
+        width: 100%;
+        bottom: 0px;
+        padding: 0px 10px;
+        height: 30px;
+        line-height: 30px;
+        background-color: black;
+        opacity: 0.5;
+        color: #fff;
+    }
+
+    #home .headerSlider .swiper-container .swiper-pagination-bullet {
+        margin: 0px 2px;
+    }
+
+    #home .headerSlider .swiper-container .swiper-pagination {
+        position:absolute;
+        right:0px;
+        padding-right: 10px;
+        position: absolute;
+        text-align: right;
+        bottom: 5px;
+    }
+/*#endregion */
+
+/*#region 功能导航 */
+#home #nav {
+    height: auto;
+    width: 100%;
+    padding: 0 3%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+    #home #nav span {
+        display: block;
+        float: left;
+        width: 33%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+        #home #nav span img {
+            display: block;
+            width: 60px;
+            height: 60px;
+            margin: 0px auto;
+        }
+
+        #home #nav span h2 {
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            margin-top: 10px;
+        }
+/*#endregion */

@@ -1,0 +1,14 @@
+<ion-view id="guidePage" view-title="引导页" cache-view="false">
+    <div id="guideSlide" class="swiper-container" style="background-color:red;">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-repeat="item in DataLstSource" style="background-repeat:no-repeat;background-size:100% 100%;z-index:9998;" ng-click="SeeInfo(item,$event)" ng-style="{'background-image': 'url(data:image/png;base64,{{item.imageBase64}})'}">
+                <div style="position:absolute;top:20px;right:20px;z-index:9999;" ng-click="returnIndex(item,$event)">
+                    <img style="width:40px;height:40px;" src="../../img/tipe.png" />
+                </div>
+                <div style="position: absolute; bottom: 0px; left: 0px; padding: 10px; color: #fff; width: 100%; background-image: url('../../img/bj.png');">
+                    {{item.title}}
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-view>

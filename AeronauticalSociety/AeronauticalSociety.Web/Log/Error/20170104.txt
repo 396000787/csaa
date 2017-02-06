@@ -1,0 +1,18 @@
+2017-01-04 15:32:19 609 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：获取头条新闻
+方法名称：GetHeadline
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 118
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 45
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetHeadline(Int32 Count) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 40
+==============================================

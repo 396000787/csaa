@@ -1,0 +1,57 @@
+<ion-view id="AboutLearningHom" view-title="关于学会" cache-view="true">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-positive">
+        <h1 class="title">关于学会</h1>
+    </div>
+    <ion-content id="AboutLearningHom-content" class="scroll-content zk_content" scroll="true">
+        <div style="padding-bottom:20px;">
+            <p>
+                <div style="text-indent: 2em">{{Body}}</div>
+            </p>
+            <div style="text-align:right;width:100%;">
+                <span class="zk_button button-link" ng-click="SeeProfile()">查看全部</span>
+            </div>
+        </div>
+        <style>
+            #AboutLearningHom-content {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .aboutList {
+                padding-left: 20px;
+                width: 100%;
+                margin: auto;
+            }
+
+                .aboutList .zk_col {
+                    background-color: #0160ba;
+                    color: #fff;
+                    text-align: center;
+                    margin: 3px;
+                    padding: 20px 0px;
+                    display: inline-block;
+                    width: 45%;
+                }
+
+                    .aboutList .zk_col img {
+                        width: 40px;
+                    }
+        </style>
+        <div class="aboutList">
+            <div class="zk_col" ng-click="openLink(item)" ng-repeat="item in AboutMenu">
+                <div>
+                    <img style="height:54px;width:54px;" ng-src="{{item.Ico}}" />
+                </div>
+                {{item.MenuName}}
+            </div>
+        </div>
+        <div style="color:#005fb9;padding:10px;">
+            <div style="border-bottom:1px solid #005fb9;font-size:20px; padding:10px 0px;">联系方式</div>
+            <ul style="line-height:30px;margin-top:10px;">
+                <li>电话：{{content.Phone}}</li>
+                <li>邮箱：{{content.Email}}</li>
+            </ul>
+        </div>
+    </ion-content>
+</ion-view>

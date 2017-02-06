@@ -1,0 +1,182 @@
+2017-01-03 13:23:31 014 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================
+2017-01-03 13:23:46 334 AeronauticalSociety.BusinessLayer.Providers.MenuProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MenuProvider
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”
+   在 TinyStack.Modules.iUtility.iTools.JsonHelper.FormJsonString[T](String json)
+   在 AeronauticalSociety.BusinessLayer.Providers.JsonDataHelp.GetJsonData[T](String FilePath) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\JsonDataHelp.cs:行号 34
+   在 AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetMainMenu() 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MenuProvider.cs:行号 25
+
+=== 预绑定状态信息 ===
+日志: DisplayName = Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+日志: Appbase = file:///C:/work/net/bj/AeronauticalSociety/AeronauticalSociety.Web/
+日志: 初始 PrivatePath = C:\work\net\bj\AeronauticalSociety\AeronauticalSociety.Web\bin
+调用程序集: TinyStack.Modules.iUtility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: C:\work\net\bj\AeronauticalSociety\AeronauticalSociety.Web\web.config
+日志: 使用主机配置文件: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/7362123a/9e31feb1/Newtonsoft.Json.DLL。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/7362123a/9e31feb1/Newtonsoft.Json/Newtonsoft.Json.DLL。
+日志: 尝试下载新的 URL file:///C:/work/net/bj/AeronauticalSociety/AeronauticalSociety.Web/bin/Newtonsoft.Json.DLL。
+警告: 比较程序集名称时发生不匹配: 主版本
+错误: 未能完成程序集的安装(hr = 0x80131040)。探测终止。
+
+==============================================
+2017-01-03 13:24:01 334 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：获取头条新闻
+方法名称：GetHeadline
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 118
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 45
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetHeadline(Int32 Count) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 40
+==============================================
+2017-01-03 13:24:42 388 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================
+2017-01-03 13:24:43 485 AeronauticalSociety.BusinessLayer.Providers.MenuProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MenuProvider
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”
+   在 TinyStack.Modules.iUtility.iTools.JsonHelper.FormJsonString[T](String json)
+   在 AeronauticalSociety.BusinessLayer.Providers.JsonDataHelp.GetJsonData[T](String FilePath) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\JsonDataHelp.cs:行号 34
+   在 AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetMainMenu() 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MenuProvider.cs:行号 25
+
+=== 预绑定状态信息 ===
+日志: DisplayName = Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+日志: Appbase = file:///C:/work/net/bj/AeronauticalSociety/AeronauticalSociety.Web/
+日志: 初始 PrivatePath = C:\work\net\bj\AeronauticalSociety\AeronauticalSociety.Web\bin
+调用程序集: TinyStack.Modules.iUtility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: C:\work\net\bj\AeronauticalSociety\AeronauticalSociety.Web\web.config
+日志: 使用主机配置文件: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/7362123a/9e31feb1/Newtonsoft.Json.DLL。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/7362123a/9e31feb1/Newtonsoft.Json/Newtonsoft.Json.DLL。
+日志: 尝试下载新的 URL file:///C:/work/net/bj/AeronauticalSociety/AeronauticalSociety.Web/bin/Newtonsoft.Json.DLL。
+警告: 比较程序集名称时发生不匹配: 主版本
+错误: 未能完成程序集的安装(hr = 0x80131040)。探测终止。
+
+==============================================
+2017-01-03 13:24:44 351 AeronauticalSociety.BusinessLayer.Providers.NewsProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NewsProvider
+模块名称：获取头条新闻
+方法名称：GetHeadline
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 System.Net.Dns.GetAddrInfo(String name)
+   在 System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   在 System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   在 MySql.Data.Common.StreamCreator.GetHostEntry(String hostname)
+   在 MySql.Data.Common.StreamCreator.GetStream(UInt32 timeout)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 118
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 45
+   在 AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetHeadline(Int32 Count) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NewsProvider.cs:行号 40
+==============================================
+2017-01-03 13:25:34 239 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================
+2017-01-03 13:25:34 496 AeronauticalSociety.BusinessLayer.Providers.MenuProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MenuProvider
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+文件名:“Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”
+   在 TinyStack.Modules.iUtility.iTools.JsonHelper.FormJsonString[T](String json)
+   在 AeronauticalSociety.BusinessLayer.Providers.JsonDataHelp.GetJsonData[T](String FilePath) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\JsonDataHelp.cs:行号 34
+   在 AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetMainMenu() 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MenuProvider.cs:行号 25
+
+=== 预绑定状态信息 ===
+日志: DisplayName = Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+日志: Appbase = file:///C:/work/net/bj/AeronauticalSociety/AeronauticalSociety.Web/
+日志: 初始 PrivatePath = C:\work\net\bj\AeronauticalSociety\AeronauticalSociety.Web\bin
+调用程序集: TinyStack.Modules.iUtility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: C:\work\net\bj\AeronauticalSociety\AeronauticalSociety.Web\web.config
+日志: 使用主机配置文件: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 策略后引用: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/7362123a/9e31feb1/Newtonsoft.Json.DLL。
+日志: 尝试下载新的 URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/7362123a/9e31feb1/Newtonsoft.Json/Newtonsoft.Json.DLL。
+日志: 尝试下载新的 URL file:///C:/work/net/bj/AeronauticalSociety/AeronauticalSociety.Web/bin/Newtonsoft.Json.DLL。
+警告: 比较程序集名称时发生不匹配: 主版本
+错误: 未能完成程序集的安装(hr = 0x80131040)。探测终止。
+
+==============================================
+2017-01-03 13:28:38 017 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================
+2017-01-03 13:32:29 408 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================
+2017-01-03 14:13:56 438 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================
+2017-01-03 14:14:40 980 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================
+2017-01-03 18:37:51 661 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================
+2017-01-03 18:38:14 472 AeronauticalSociety.BusinessLayer.Controllers.MenuApiController 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Controllers.MenuApiController
+模块名称：获取主菜单
+方法名称：GetMainMenu
+日志信息：dsafdsafdsa
+==============================================

@@ -1,0 +1,27 @@
+<ion-view id="CollectionIndex" view-title="我的收藏" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title">我的收藏</h1>
+    </div>
+    <ion-content id="CollectionIndex-content" class="scroll-content zk_content" scroll="true">
+        <ion-refresher pulling-text="获取最新数据..."
+                       refreshing-text="刷新完毕"
+                       on-refresh="list_refresh()">
+        </ion-refresher>
+        <ul class="list">
+            <li class="item item-icon-right" ng-click="openLink(item)" ng-repeat="item in NewsListData">
+                {{item.title}}
+                <span class="icon ion-chevron-right"></span>
+            </li>
+        </ul>
+        <div ng-hide="!pms_isMoreItemsAvailable" style="text-align: center">
+            <span>已经到了最后一页！</span>
+        </div>
+        <ion-infinite-scroll ng-if="!pms_isMoreItemsAvailable" icon="ion-loading-c" on-infinite="page_refresh()" distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

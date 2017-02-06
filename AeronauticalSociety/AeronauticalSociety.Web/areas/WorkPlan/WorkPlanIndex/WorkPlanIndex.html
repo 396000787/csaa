@@ -1,0 +1,84 @@
+<ion-view id="WorkPlanIndex" view-title="工作计划" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title">工作计划</h1>
+    </div>
+    <ion-content id="WorkPlanIndex-content" class="scroll-content zk_content" scroll="true">
+        <ion-refresher pulling-text="获取最新数据..."
+                       refreshing-text="刷新完毕"
+                       on-refresh="list_refresh()">
+        </ion-refresher>
+        <div style="padding:10px 40px;">
+            <table style="width:100%;border-collapse:collapse;">
+                <tr>
+                    <td style="width:40px;cursor:pointer;" ng-click="lastMonth()"><span class="ion-chevron-left"></span></td>
+                    <td style="text-align:center;"><span class="">{{Year}}</span>年</td>
+                    <td><span class="">{{Month}}</span>月</td>
+                    <td style="width:40px;cursor:pointer;" ng-click="nextMonth()"><span class="ion-chevron-right"></span></td>
+                </tr>
+            </table>
+        </div>
+        <style>
+            .row .col {
+                text-align: center;
+                height: 80px;
+                line-height: 80px;
+            }
+
+                .row .col.active {
+                    background-size: 80%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-image: url('../../../img/planyIcobj.png');
+                }
+        </style>
+        <div id="Month" style="background-color:#005ab7;color:#fff;padding:10px 0px;">
+            <div class="row">
+                <div class="col month_1">1</div>
+                <div class="col month_2">2</div>
+                <div class="col month_3">3</div>
+                <div class="col month_4">4</div>
+            </div>
+            <div class="row">
+                <div class="col month_5">5</div>
+                <div class="col month_6">6</div>
+                <div class="col month_7">7</div>
+                <div class="col month_8">8</div>
+            </div>
+            <div class="row">
+                <div class="col month_9">9</div>
+                <div class="col month_10">10</div>
+                <div class="col month_11">11</div>
+                <div class="col month_12">12</div>
+            </div>
+        </div>
+        <div style="padding:10px;">
+            <ul>
+                <li ng-repeat="item in NewsListData" style="padding:10px;margin-bottom:10px; border:1px solid #f0f0f0;border-radius:10px;background-color:#fff;">
+                    <div style="border-bottom:1px solid #f0f0f0;padding:5px 0px;">
+                        <span style="font-size:18px;color:#0061bc;">活动名：{{item.name}}</span><span style="display:inline-block;float:right;"></span>
+                    </div>
+                    <div style="margin-top:10px;color:#6b6b6b;">
+                        <p>时间：{{item.startTime.substring(0,10)}}--{{item.endTime.substring(0,10)}}</p>
+                        <p>规模：{{item.scale}}</p>
+                        <p>地点：{{item.addressProvince}}--{{item.addressCity}}</p>
+                        <p>内容及目的：{{item.content}}</p>
+                        <p>联系人:</p>
+                        <p style="padding-left:20px;" ng-repeat="cc in item.Contacts">
+                            {{cc.contactsName}}——{{cc.phone}}
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div ng-hide="!pms_isMoreItemsAvailable" style="text-align: center">
+            <span></span>
+        </div>
+        <ion-infinite-scroll ng-if="!pms_isMoreItemsAvailable" icon="ion-loading-c" on-infinite="page_refresh()" distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,131 @@
+<ion-view id="Login" view-title="登录" cache-view="false" ng-show="isShow">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk">
+        <h1 class="title">用户登录</h1>
+    </div>
+    <style>
+        #Login #Login-content {
+            margin-top: 43px;
+        }
+    </style>
+    <ion-content id="Login-content" class="scroll-content" scroll="false">
+        <style>
+            .Ico_Logo {
+                margin-top: 50px;
+                margin-bottom: 30px;
+                width: 100%;
+                text-align: center;
+            }
+
+                .Ico_Logo img {
+                    width: 80%;
+                }
+        </style>
+        <div class="Ico_Logo">
+            <img src="../../img/Login/Ico_LOGO.png" />
+        </div>
+        <style>
+            .formListNode {
+                width: 100%;
+                height: 50px;
+                padding: 0px 20px;
+                line-height: 50px;
+                border-radius: 30px;
+                background-color: #e5f4fb;
+                margin-bottom: 20px;
+                vertical-align: middle;
+            }
+
+                .formListNode input {
+                    height: 40px;
+                    width: 100%;
+                    font-size: 18px;
+                    padding-left: 35px;
+                    color: #0185cf;
+                    border: none;
+                    background-color: transparent;
+                    vertical-align: middle;
+                }
+
+
+                    .formListNode input::-webkit-input-placeholder {
+                        color: #0185cf;
+                        font-size: 20px;
+                    }
+
+
+                .formListNode .UserName {
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    background-position: 0px center;
+                    background-image: url('../../img/Login/Ico_Login_User.png');
+                }
+
+                .formListNode .Password {
+                    display: inline-block;
+                    background-repeat: no-repeat;
+                    line-height: 20px;
+                    background-size: 25px;
+                    background-position: 0px center;
+                    margin-top: 2px;
+                    background-image: url('../../img/Login/Ico_Login_password.png');
+                }
+
+            .ErrorPrompt {
+                padding: 0px 10px;
+                font-size: 18px;
+                color: #0160bc;
+            }
+
+            .LoginBtn {
+                width: 100%;
+                background-color: #0085d0;
+                color: #fff;
+                height: 50px;
+                border-radius: 30px;
+                margin-top: 20px;
+                cursor: pointer;
+                font-size: 20px;
+                text-align: center;
+                line-height: 50px;
+            }
+
+            .register {
+                width: 100%;
+                text-align: right;
+                margin-top: 10px;
+                color: #0286d1;
+                cursor: pointer;
+            }
+
+            .errText {
+                color: red;
+            }
+        </style>
+
+        <!--<div style="padding:0px 30px; " ng-app="Login.service" ng-controller="LoginCtrl">-->
+        <div style="padding:0px 30px; ">
+            <!--<form novalidate>-->
+            <ul>
+                <li class="formListNode">
+                    <input class="UserName" placeholder="账号" ng-model="data.userName" ng-focus="userNameFouces()" />
+                </li>
+                <li class="formListNode">
+                    <input class="Password" placeholder="密码" type="password" ng-model="data.password" ng-focus="passwordFouces()" />
+                </li>
+            </ul>
+            <!--</form>-->
+            <div class="ErrorPrompt  errText">{{errMessage}}</div>
+            <div class="LoginBtn" ng-click="Login()">
+                登录
+            </div>
+            <div>
+                <div class="register" >
+                    <span ng-click="Register()">立即注册</span>  <span style="padding-left:30px;padding-right:10px;"  ng-click="ForgetPassword()">忘记密码</span>
+                </div>               
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

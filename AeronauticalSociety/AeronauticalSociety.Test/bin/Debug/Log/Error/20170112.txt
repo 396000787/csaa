@@ -1,0 +1,42 @@
+2017-01-12 14:27:18 172 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-12 14:41:47 749 AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider
+模块名称：新建工作计划
+方法名称：AddWorkPlan
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inster into de2_workplan  (`year`,startTime,endTime,name,content,scale,addressPr' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.Inster(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 76
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.Inster(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 42
+   在 AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.AddWorkPlan(WorkPlan Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\WorkPlanProider.cs:行号 169
+==============================================
+2017-01-12 15:07:51 692 AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider
+模块名称：删除工作计划
+方法名称：DelWorkPlan
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'whrere wid=5' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.DelWorkPlan(Int32 wid) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\WorkPlanProider.cs:行号 372
+==============================================

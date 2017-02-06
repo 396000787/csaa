@@ -1,0 +1,32 @@
+<style>
+    .item-icon-left .icon,
+    .item-icon-right .icon {
+        font-size: 12px;
+    }
+</style>
+<ion-view id="AboutLearningHonor" view-title="学会荣誉" cache-view="false">
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title">学会荣誉</h1>
+    </div>
+    <ion-content id="AboutLearningHonor-content" class="scroll-content zk_content" scroll="true">
+        <ion-refresher pulling-text="获取最新数据..."
+                       refreshing-text="刷新完毕"
+                       on-refresh="list_refresh()">
+        </ion-refresher>
+        <div class="list">
+            <a class="item item-thumbnail-left" ng-click="openLink(item)" ng-repeat="item in NewsListData">
+                <img src="{{item.litpic}}">
+                <h2 style="margin-top:20px;">{{item.title}}</h2>
+            </a>
+        </div>
+        <div ng-hide="!pms_isMoreItemsAvailable" style="text-align: center">
+            <span>已经到了最后一页！</span>
+        </div>
+        <ion-infinite-scroll ng-if="!pms_isMoreItemsAvailable" icon="ion-loading-c" on-infinite="page_refresh()" distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

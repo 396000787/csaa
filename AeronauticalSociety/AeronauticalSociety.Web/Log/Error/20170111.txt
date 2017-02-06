@@ -1,0 +1,11 @@
+2017-01-11 11:49:41 097 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 139
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 102
+==============================================

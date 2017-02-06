@@ -1,0 +1,22 @@
+﻿[
+    {
+        "ID": 1,
+        "Index": 1,
+        "MenuName": "航空知识",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": false,
+        "TypeID": "12"
+    },
+    {
+
+        "ID": 2,
+        "Index": 2,
+        "MenuName": "航空学报",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": true,
+        "TypeID": "48"
+    }
+
+]

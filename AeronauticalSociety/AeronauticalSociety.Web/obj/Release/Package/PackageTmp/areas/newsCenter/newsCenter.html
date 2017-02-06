@@ -1,0 +1,15 @@
+<ion-view id="newsCenter" view-title="newCenter" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title">新闻中心</h1>
+    </div>
+    <ion-content id="home-content" class="scroll-content" scroll="true">
+        <div class="noList" style="background-image:url({{item.Ico}})" ng-click="clickImgNode(item)" ng-repeat="item in ListDataSource">
+            <span>{{item.MenuName}}</span>
+        </div>
+    </ion-content>
+</ion-view>

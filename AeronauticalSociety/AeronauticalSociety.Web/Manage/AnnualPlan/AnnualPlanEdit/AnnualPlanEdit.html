@@ -1,0 +1,142 @@
+﻿<style>
+    .planList {
+        padding: 0px;
+        margin: 0px;
+    }
+
+        .planList li {
+            margin: 0px;
+            padding: 10px 10px;
+            list-style-type: none;
+        }
+
+            .planList li .glyphicon-remove {
+                color: red;
+                cursor: pointer;
+            }
+</style>
+
+<div class="text-center">
+    <h3>发布年度工作计划</h3>
+</div>
+<form class="form-horizontal" role="form" name="MyName" novalidate>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">活动名称</label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" ng-model="UserModel.name" ng-focus="actionNameFouces()" ng-blur="actionNameBlur()" />
+        </div>
+        <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+            <span>{{actionNameErr}}</span>
+        </span>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">内容及目的</label>
+        <div class="col-sm-8">
+            <textarea class="form-control" style="height:150px;" ng-model="UserModel.content" ng-focus="contentFouces()" ng-blur="contentBlur()"></textarea>
+        </div>
+        <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+            <span>{{contentErr}}</span>
+        </span>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">开始时间</label>
+        <div class="col-sm-8">
+            <input type="text" class="StartTime form-control" style="cursor:pointer" readonly="readonly" id="startTime" name="name" value="" ng-focus="startTimeFouces()" onchange="angular.element(this).scope().startTimeBlur()" />
+        </div>
+        <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+            <span>{{startTimeErr}}</span>
+        </span>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">结束时间</label>
+        <div class="col-sm-8">
+            <input type="text" class="EndTime form-control" style="cursor:pointer" readonly="readonly" id="endTime" name="name" value="" ng-focus="endTimeFouces()" onchange="angular.element(this).scope().endTimeBlur()" />
+        </div>
+        <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+            <span>{{endTimeErr}}</span>
+        </span>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">规模</label>
+        <div class="col-sm-8">
+            <input type="number" name="name" class="form-control" ng-model="UserModel.scale" ng-focus="scaleFouces()" ng-blur="scaleBlur()" />
+        </div>
+        <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+            <span>{{scaleErr}}</span>
+        </span>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">地点</label>
+        <div class="col-sm-4">
+            <select class="form-control" id="CityList" ng-model="UserModel.seladdressProvinceID" ng-options="x.id as x.Name for x in UserModel.cityList" ng-change="change()"></select>
+        </div>
+
+        <div class="col-sm-4">
+            <select id="addressCity" class="form-control" ng-model="UserModel.seladdressCityID" ng-options="x.id as x.Name for x in UserModel.areaList"></select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">联系人</label>
+        <div class="col-sm-8">
+            <span class="btn btn-link" data-toggle="modal" data-target="#myModal">添加联系人</span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label"></label>
+        <div class="col-sm-8">
+            <ul class="planList">
+                <li ng-show="item.statue=='del'?false:true" ng-repeat="item in WorkPlanContacts">
+                    <span style="display:inline-block;width:80px;">{{item.contactsName}}</span>
+                    <span style="display:inline-block;width:120px;">{{item.phone}}</span>
+                    <span class="glyphicon glyphicon-remove" ng-click="removeContact(item)"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="form-group text-center">
+        <button type="button" class="btn btn-default" ng-click="cancle()">取消</button>
+        <button type="button" class="btn btn-default" ng-click="Seave()">保存</button>
+    </div>
+</form>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">添加联系人</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="AddUserModel_contactsName" ng-focus="contactsNameFouces()" ng-blur="contactsNameBlur()">
+                            <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+                                <span>{{contactsNameErr}}</span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">联系电话</label>
+                        <div class="col-sm-10">
+                            <input type="tel" class="form-control" id="AddUserModel_phone" ng-focus="phoneFouces()" ng-blur="phoneBlur()" />
+                            <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+                                <span>{{phoneErr}}</span>
+                            </span>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="cancleAddUser()">取消</button>
+                <button type="button" class="btn btn-primary" ng-click="AddUser()">确定</button>
+            </div>
+        </div>
+    </div>
+</div>

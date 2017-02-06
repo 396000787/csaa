@@ -1,0 +1,10 @@
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\bin\Release\AeronauticalSociety.Model.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\bin\Release\AeronauticalSociety.Model.pdb
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\bin\Release\EntityFramework.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\bin\Release\EntityFramework.SqlServer.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\bin\Release\MySql.Data.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\bin\Release\MySql.Data.Entity.EF6.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\bin\Release\EntityFramework.xml
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\bin\Release\EntityFramework.SqlServer.xml
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\obj\Release\AeronauticalSociety.Model.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Model\obj\Release\AeronauticalSociety.Model.pdb

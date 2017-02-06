@@ -1,0 +1,40 @@
+﻿[
+    {
+        "ID": 1,
+        "Index": 1,
+        "MenuName": "学会简介",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": false,
+        "TypeID": "12"
+    },
+    {
+
+        "ID": 2,
+        "Index": 2,
+        "MenuName": "学会章程",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": true,
+        "TypeID": "48"
+    },
+    {
+        "ID": 3,
+        "Index": 3,
+        "MenuName": "学会荣誉",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": true,
+        "TypeID": "16"
+    },
+    {
+        "ID": 4,
+        "Index": 4,
+        "MenuName": "组织机构",
+        "Ico": "img/newsCenter/ico01.png",
+        "Url": "",
+        "IsShow": true,
+        "TypeID": "14"
+    }
+
+]

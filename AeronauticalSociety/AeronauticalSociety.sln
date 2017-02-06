@@ -1,0 +1,142 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeronauticalSociety.Web", "AeronauticalSociety.Web\AeronauticalSociety.Web.csproj", "{3C3BF46B-0247-4225-8576-1BDAFE269AE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{55D643C3-8A66-43A0-928B-3039459F5C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeronauticalSociety.Log", "Modules\AeronauticalSociety.Log\AeronauticalSociety.Log.csproj", "{A54C922E-28CB-45A3-9A46-15A7F17C4CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeronauticalSociety.Model", "Modules\AeronauticalSociety.Model\AeronauticalSociety.Model.csproj", "{CF2E89CA-DCDC-415F-AB9A-DADE90A43356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyStack.Modules.iSqlHelper", "Modules\TinyStack.Modules.iSqlHelper\TinyStack.Modules.iSqlHelper.csproj", "{4C4441A2-08AF-4CBF-A00E-77B4D29C9046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Asseblies", "Asseblies", "{A42A0526-0C01-4FAF-BBCE-CE045F3D152B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{605BA799-54F2-4EB9-BA37-BA548A02E1F9}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\Server\FsllIAMS.SSO.dll = Assemblies\Server\FsllIAMS.SSO.dll
+		Assemblies\Server\ICSharpCode.SharpZipLib.dll = Assemblies\Server\ICSharpCode.SharpZipLib.dll
+		Assemblies\Server\MySql.Data.dll = Assemblies\Server\MySql.Data.dll
+		Assemblies\Server\NPOI.dll = Assemblies\Server\NPOI.dll
+		Assemblies\Server\NPOI.OOXML.dll = Assemblies\Server\NPOI.OOXML.dll
+		Assemblies\Server\NPOI.OpenXml4Net.dll = Assemblies\Server\NPOI.OpenXml4Net.dll
+		Assemblies\Server\NPOI.OpenXmlFormats.dll = Assemblies\Server\NPOI.OpenXmlFormats.dll
+		Assemblies\Server\Polenter.SharpSerializer.dll = Assemblies\Server\Polenter.SharpSerializer.dll
+		Assemblies\Server\ThoughtWorks.QRCode.dll = Assemblies\Server\ThoughtWorks.QRCode.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyStack.Modules.iUtility", "Modules\TinyStack.Modules.iUtility\TinyStack.Modules.iUtility.csproj", "{E09CCF1A-4661-442D-AF7E-26BF539C774E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FCED4633-486F-439A-9FAF-AAA7E4AA14A8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeronauticalSociety.BusinessLayer", "Modules\BusinessLayer\AeronauticalSociety.BusinessLayer.csproj", "{8B73D9D3-51EC-4D08-8DBF-06F1C21CC84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeronauticalSociety.Test", "AeronauticalSociety.Test\AeronauticalSociety.Test.csproj", "{08FAE375-DB38-4504-AB2C-ACFD7C025FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyStack.Modules.FileUpload", "Modules\TinyStack.Modules.FileUpload\TinyStack.Modules.FileUpload.csproj", "{5EBA4BC4-B5CB-41A4-8447-BFACDB2C771F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiDec", "webapiDec\webapiDec.csproj", "{E4B12DD1-C656-4E4F-AF4F-AA5B7A6D2366}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.cphelp.cn:8080/tfs/%E5%8C%97%E4%BA%AC%E5%8C%BA
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Modules\\TinyStack.Modules.iSqlHelper\\TinyStack.Modules.iSqlHelper.csproj
+		SccProjectTopLevelParentUniqueName1 = AeronauticalSociety.sln
+		SccProjectName1 = Modules/TinyStack.Modules.iSqlHelper
+		SccLocalPath1 = Modules\\TinyStack.Modules.iSqlHelper
+		SccProjectUniqueName2 = Modules\\TinyStack.Modules.iUtility\\TinyStack.Modules.iUtility.csproj
+		SccProjectTopLevelParentUniqueName2 = AeronauticalSociety.sln
+		SccProjectName2 = Modules/TinyStack.Modules.iUtility
+		SccLocalPath2 = Modules\\TinyStack.Modules.iUtility
+		SccProjectUniqueName3 = AeronauticalSociety.Web\\AeronauticalSociety.Web.csproj
+		SccProjectName3 = AeronauticalSociety.Web
+		SccLocalPath3 = AeronauticalSociety.Web
+		SccProjectUniqueName4 = Modules\\AeronauticalSociety.Log\\AeronauticalSociety.Log.csproj
+		SccProjectTopLevelParentUniqueName4 = AeronauticalSociety.sln
+		SccProjectName4 = Modules/AeronauticalSociety.Log
+		SccLocalPath4 = Modules\\AeronauticalSociety.Log
+		SccProjectUniqueName5 = Modules\\AeronauticalSociety.Model\\AeronauticalSociety.Model.csproj
+		SccProjectTopLevelParentUniqueName5 = AeronauticalSociety.sln
+		SccProjectName5 = Modules/AeronauticalSociety.Model
+		SccLocalPath5 = Modules\\AeronauticalSociety.Model
+		SccProjectUniqueName6 = Modules\\BusinessLayer\\AeronauticalSociety.BusinessLayer.csproj
+		SccProjectTopLevelParentUniqueName6 = AeronauticalSociety.sln
+		SccProjectName6 = Modules/BusinessLayer
+		SccLocalPath6 = Modules\\BusinessLayer
+		SccProjectUniqueName7 = AeronauticalSociety.Test\\AeronauticalSociety.Test.csproj
+		SccProjectName7 = AeronauticalSociety.Test
+		SccLocalPath7 = AeronauticalSociety.Test
+		SccProjectUniqueName8 = Modules\\TinyStack.Modules.FileUpload\\TinyStack.Modules.FileUpload.csproj
+		SccProjectTopLevelParentUniqueName8 = AeronauticalSociety.sln
+		SccProjectName8 = Modules/TinyStack.Modules.FileUpload
+		SccLocalPath8 = Modules\\TinyStack.Modules.FileUpload
+		SccProjectUniqueName9 = webapiDec\\webapiDec.csproj
+		SccProjectName9 = webapiDec
+		SccLocalPath9 = webapiDec
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C3BF46B-0247-4225-8576-1BDAFE269AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3BF46B-0247-4225-8576-1BDAFE269AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3BF46B-0247-4225-8576-1BDAFE269AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3BF46B-0247-4225-8576-1BDAFE269AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54C922E-28CB-45A3-9A46-15A7F17C4CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54C922E-28CB-45A3-9A46-15A7F17C4CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54C922E-28CB-45A3-9A46-15A7F17C4CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54C922E-28CB-45A3-9A46-15A7F17C4CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2E89CA-DCDC-415F-AB9A-DADE90A43356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2E89CA-DCDC-415F-AB9A-DADE90A43356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2E89CA-DCDC-415F-AB9A-DADE90A43356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2E89CA-DCDC-415F-AB9A-DADE90A43356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4441A2-08AF-4CBF-A00E-77B4D29C9046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4441A2-08AF-4CBF-A00E-77B4D29C9046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4441A2-08AF-4CBF-A00E-77B4D29C9046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4441A2-08AF-4CBF-A00E-77B4D29C9046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09CCF1A-4661-442D-AF7E-26BF539C774E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09CCF1A-4661-442D-AF7E-26BF539C774E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09CCF1A-4661-442D-AF7E-26BF539C774E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09CCF1A-4661-442D-AF7E-26BF539C774E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B73D9D3-51EC-4D08-8DBF-06F1C21CC84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B73D9D3-51EC-4D08-8DBF-06F1C21CC84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B73D9D3-51EC-4D08-8DBF-06F1C21CC84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B73D9D3-51EC-4D08-8DBF-06F1C21CC84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FAE375-DB38-4504-AB2C-ACFD7C025FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FAE375-DB38-4504-AB2C-ACFD7C025FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FAE375-DB38-4504-AB2C-ACFD7C025FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FAE375-DB38-4504-AB2C-ACFD7C025FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBA4BC4-B5CB-41A4-8447-BFACDB2C771F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBA4BC4-B5CB-41A4-8447-BFACDB2C771F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBA4BC4-B5CB-41A4-8447-BFACDB2C771F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBA4BC4-B5CB-41A4-8447-BFACDB2C771F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B12DD1-C656-4E4F-AF4F-AA5B7A6D2366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B12DD1-C656-4E4F-AF4F-AA5B7A6D2366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B12DD1-C656-4E4F-AF4F-AA5B7A6D2366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B12DD1-C656-4E4F-AF4F-AA5B7A6D2366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A54C922E-28CB-45A3-9A46-15A7F17C4CE5} = {55D643C3-8A66-43A0-928B-3039459F5C5E}
+		{CF2E89CA-DCDC-415F-AB9A-DADE90A43356} = {55D643C3-8A66-43A0-928B-3039459F5C5E}
+		{4C4441A2-08AF-4CBF-A00E-77B4D29C9046} = {55D643C3-8A66-43A0-928B-3039459F5C5E}
+		{605BA799-54F2-4EB9-BA37-BA548A02E1F9} = {A42A0526-0C01-4FAF-BBCE-CE045F3D152B}
+		{E09CCF1A-4661-442D-AF7E-26BF539C774E} = {55D643C3-8A66-43A0-928B-3039459F5C5E}
+		{8B73D9D3-51EC-4D08-8DBF-06F1C21CC84B} = {55D643C3-8A66-43A0-928B-3039459F5C5E}
+		{5EBA4BC4-B5CB-41A4-8447-BFACDB2C771F} = {55D643C3-8A66-43A0-928B-3039459F5C5E}
+	EndGlobalSection
+EndGlobal

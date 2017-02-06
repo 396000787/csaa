@@ -1,0 +1,7 @@
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iUtility\bin\Release\TinyStack.Modules.iUtility.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iUtility\bin\Release\TinyStack.Modules.iUtility.pdb
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iUtility\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iUtility\bin\Release\Newtonsoft.Json.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iUtility\bin\Release\Polenter.SharpSerializer.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iUtility\obj\Release\TinyStack.Modules.iUtility.dll
+C:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iUtility\obj\Release\TinyStack.Modules.iUtility.pdb

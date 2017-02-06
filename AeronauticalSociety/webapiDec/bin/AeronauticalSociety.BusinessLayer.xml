@@ -1,0 +1,2141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AeronauticalSociety.BusinessLayer</name>
+    </assembly>
+    <members>
+        <member name="T:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController">
+            <summary>
+            关于学会
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetSocietyIntroduction">
+            <summary>
+            获取取学会简介
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetContent">
+            <summary>
+            获取联系我们电话
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetConstitutionDetial">
+            <summary>
+            获取学会章程内容
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetHonorList(System.Int32,System.Int32)">
+            <summary>
+            获取学会荣誉列表
+            </summary>
+            <param name="StartRow">起始行</param>
+            <param name="PageSize">数据总数</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetHonorDetial(System.Int32)">
+            <summary>
+            获取学会荣誉内容
+            </summary>
+            <param name="aid">文章ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetRecognitionAwards(System.Int32,System.Int32)">
+            <summary>
+            获取表彰管理条例列表
+            </summary>
+            <param name="StartRow">起始行</param>
+            <param name="PageSize">数据总数</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetAcademicWorks(System.Int32,System.Int32)">
+            <summary>
+            获取学术工作管理条例列表
+            </summary>
+            <param name="StartRow">起始行</param>
+            <param name="PageSize">数据总数</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetOrgaincRuleses(System.Int32,System.Int32)">
+            <summary>
+            获取组织条例列表
+            </summary>
+            <param name="StartRow">起始行</param>
+            <param name="PageSize">数据总数</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetManageRuleses(System.Int32,System.Int32)">
+            <summary>
+            获取管理条例列表
+            </summary>
+            <param name="StartRow">起始行</param>
+            <param name="PageSize">数据总数</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetManageRulesDetial(System.Int32)">
+            <summary>
+            获取管理条例内容
+            </summary>
+            <param name="aid">文章ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetCouncil">
+            <summary>
+            获取理事会信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetAffairsCouncil">
+            <summary>
+            获取常务理事会信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetWorkingCommitteeList(System.Int32,System.Int32)">
+            <summary>
+            获取工作委员会列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetWorkingCommittee(System.Int32)">
+            <summary>
+            获取工作委员会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetProfessionalBranchList(System.Int32,System.Int32)">
+            <summary>
+            获取专业分会列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetProfessionalBranch(System.Int32)">
+            <summary>
+            获取专业分会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetLocalAssociationList(System.Int32,System.Int32)">
+            <summary>
+            获取地方学会列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetLocalAssociation(System.Int32)">
+            <summary>
+            获取地方学会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetUnitMemberList(System.Int32,System.Int32)">
+            <summary>
+            获取单位学会列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AboutSocietyController.GetUnitMember(System.Int32)">
+            <summary>
+            获取单位学会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController">
+            <summary>
+            学会资源
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.GetAcademicResourcesListForApp(AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam)">
+            <summary>
+            获取学术资源列表 应用
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.GetAcademicResourcesListForManager(AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam)">
+            <summary>
+            获取学术资源列表 管理端
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.GetAcademicResourcesMenu(AeronauticalSociety.BusinessLayer.Providers.GetAcademicResourcesMenuParam)">
+            <summary>
+            获取目录
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.GetAcademicResourcesMenu(System.Int32)">
+            <summary>
+            获取学术资源详细
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.AddAcademicResources(AeronauticalSociety.Model.AcademicResources)">
+            <summary>
+            保存学术资源信息
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.UpdateAcademicResources(AeronauticalSociety.Model.AcademicResources)">
+            <summary>
+            修改学术资源信息
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.UpdatePublishStatue(AeronauticalSociety.Model.AcademicResources)">
+            <summary>
+            修改学术资源发布状态
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.DelAcademicResources(System.Int32)">
+            <summary>
+            删除学术资源
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.DelAcademicResourcesByParentID(System.Int32)">
+            <summary>
+            根据父级id删除学术资源
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.SaveResourcesFile(AeronauticalSociety.Model.AcademicResources_File)">
+            <summary>
+            保存资源文件
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.DelResourcesFileByParent(System.Int32)">
+            <summary>
+            删除资源文件
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.AddResourceMenu(AeronauticalSociety.Model.AcademicResources_Menu)">
+            <summary>
+            新建目录
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.UpdateResourceMenu(AeronauticalSociety.Model.AcademicResources_Menu)">
+            <summary>
+            修改目录
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.DelResourceMenu(System.Int32)">
+            <summary>
+            删除目录
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AcademicResourcesController.GetAcademicResourcesMenuDetail(System.Int32)">
+            <summary>
+            获取目录详细信息
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.CheckIn(AeronauticalSociety.BusinessLayer.Providers.LoginInParam)">
+            <summary>
+            登录认证
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.AdminCheckIn(AeronauticalSociety.BusinessLayer.Providers.LoginInParam)">
+            <summary>
+            管理员登陆认证
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.RegUser(AeronauticalSociety.Model.User)">
+            <summary>
+            用户注册
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.UpdatePassword(AeronauticalSociety.BusinessLayer.Providers.UpdatePasswordParam)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.UpdateMember(AeronauticalSociety.Model.Member)">
+            <summary>
+            修改用户信息
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.GetMember(System.String)">
+            <summary>
+            获取用户详细信息
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.GetAreaList">
+            <summary>
+            获取所在地区
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.GetBranchList">
+            <summary>
+            获取专业分会
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.LoginNameIsRepeat(System.String)">
+            <summary>
+            验证用户名是否存在
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.BindMember(AeronauticalSociety.BusinessLayer.Providers.BindMemberParam)">
+            <summary>
+            注册用户绑定
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.CheckOut">
+            <summary>
+            退出登录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.GetProfessionList">
+            <summary>
+            获取专业列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AccountApiController.GetOccupationList">
+            <summary>
+            获取职业列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController">
+            <summary>
+            广告
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.GetAdvertisementList(System.Int32)">
+            <summary>
+            获取广告列表
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.GetAdvertisementes(AeronauticalSociety.BusinessLayer.Providers.GetAdvertisementesParam)">
+            <summary>
+            获取广告列表
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.GetAdvertisement(System.Int32)">
+            <summary>
+            获取广告详细信息
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.UpdateAdvertisement(AeronauticalSociety.Model.Advertisement)">
+            <summary>
+            修改广告信息
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.InsterAdvertisement(AeronauticalSociety.Model.Advertisement)">
+            <summary>
+            新建广告信息
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.StopAdvertisement(System.Int32)">
+            <summary>
+            停用广告信息
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.StartAdvertisement(System.Int32)">
+            <summary>
+            启用广告信息
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.DelAdvertisement(System.Int32)">
+            <summary>
+            删除广告信息
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.AdvertisementController.AdvertisementClickCount(System.Int32)">
+            <summary>
+            记录广告点击次数
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Controllers.ConcernsController">
+            <summary>
+            作者关注
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.ConcernsController.AddConcerns(AeronauticalSociety.Model.Concerns)">
+            <summary>
+            添加关注
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.ConcernsController.GetConcernsList(System.Int32,System.Int32)">
+            <summary>
+            获取关注作者列表
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.ConcernsController.DelConcerns(System.Int32)">
+            <summary>
+            删除关注
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.ConcernsController.CancelConcerns(System.String)">
+            <summary>
+            取消关注
+            </summary>
+            <param name="Param">文章作者</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Controllers.CollectionController">
+            <summary>
+            收藏文章
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.CollectionController.AddColletion(AeronauticalSociety.Model.Collection)">
+            <summary>
+            添加收藏
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.CollectionController.GetCollectionList(System.Int32,System.Int32)">
+            <summary>
+            获取收藏列表
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.CollectionController.DelColletion(System.Int32)">
+            <summary>
+            删除收藏
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.CollectionController.CancelColletion(System.Int32)">
+            <summary>
+            取消收藏
+            </summary>
+            <param name="Param">文章ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.MenuApiController.GetMainMenu">
+            <summary>
+            获取主菜单
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.MenuApiController.GetNewMenu">
+            <summary>
+            获取新闻二级菜单
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.MenuApiController.GetAssociationMenu">
+            <summary>
+            获取学会动态菜单
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.MenuApiController.GetAboutMenu">
+            <summary>
+            获取关于学会菜单
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.MenuApiController.GetManagementRegulations">
+            <summary>
+            获取管理条例二级目录
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.MenuApiController.GetOrganizationalTypes">
+            <summary>
+            获取组织机构分类列表
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.MenuApiController.GetManageRuleses">
+            <summary>
+            获取管理条例列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.MenuApiController.GetAcademicResource">
+            <summary>
+            获取学术资源菜单列表
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Controllers.NativePlaceController">
+            <summary>
+            省市地区
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NativePlaceController.GetProvinceList">
+            <summary>
+            获取省列表
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NativePlaceController.GetCityList(System.String)">
+            <summary>
+            根据省ID 获取市
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Controllers.NewApiController">
+            <summary>
+            新闻
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetHeadline(System.Int32)">
+            <summary>
+            获取头条新闻
+            </summary>
+            <param name="Count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetNewsByTypeID(AeronauticalSociety.BusinessLayer.Providers.GetNewsByTypeIDParam)">
+            <summary>
+            根据新闻类型获取新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <param name="TypeID"></param>
+            <param name="Author">作者</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetNewsBySearchKey(AeronauticalSociety.BusinessLayer.Providers.GetNewsBySearchKeyParam)">
+            <summary>
+            根据检索关键字获取新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <param name="TypeID"></param>
+            <param name="GetNewsBySearchKey">作者</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetTextNews(System.Int32,System.Int32)">
+            <summary>
+            获取普通新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetImageNews(System.Int32,System.Int32)">
+            <summary>
+            获取图片新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetVideoNews(System.Int32,System.Int32)">
+            <summary>
+            获取视频新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetColumnsNews(System.Int32,System.Int32)">
+            <summary>
+            获取专题新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetTextNewsDetial(System.Int32)">
+            <summary>
+            获取文件内容信息
+            </summary>
+            <param name="aid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetAssociation(System.Int32,System.Int32)">
+            <summary>
+            获取学会工作
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetNotices(System.Int32,System.Int32)">
+            <summary>
+            获取通知通告
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.NewApiController.GetActions(System.Int32,System.Int32)">
+            <summary>
+            学会活动
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>        
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Controllers.WorkPlanController">
+            <summary>
+            工作计划
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.WorkPlanController.GetWorkPlanList(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            获取年度工作计划
+            </summary>
+            <param name="Year"></param>
+            <param name="Month"></param>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.WorkPlanController.GetWorkPlanDetial(System.Int32)">
+            <summary>
+            获取年度计划详情
+            </summary>
+            <param name="wid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.WorkPlanController.AddWorkPlan(AeronauticalSociety.Model.WorkPlan)">
+            <summary>
+            新建工作计划
+            </summary>
+            <param name="Data">工作计划数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.WorkPlanController.UpdateWorkPlan(AeronauticalSociety.Model.WorkPlan)">
+            <summary>
+            修改工作计划
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Controllers.WorkPlanController.DelWorkPlan(System.Int32)">
+            <summary>
+            删除工作计划
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider">
+            <summary>
+            关于学会
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetSocietyIntroduction">
+            <summary>
+            获取取学会简介
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetConstitutionDetial">
+            <summary>
+            获取学会章程内容
+            </summary>
+            <param name="aid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetContent">
+            <summary>
+            获取联系我们电话
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetHonorList(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="TypeID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetHonorDetial(System.Int32)">
+            <summary>
+            获取学会荣誉内容
+            </summary>
+            <param name="aid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetRecognitionAwards(System.Int32,System.Int32)">
+            <summary>
+            获取表彰管理条例列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetAcademicWorks(System.Int32,System.Int32)">
+            <summary>
+            获取学术工作管理条例列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetOrgaincRuleses(System.Int32,System.Int32)">
+            <summary>
+            获取组织条例列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetManageRuleses(System.Int32,System.Int32)">
+            <summary>
+            获取管理条例列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetManageRulesDetial(System.Int32)">
+            <summary>
+            获取管理条例内容
+            </summary>
+            <param name="aid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetCouncil">
+            <summary>
+            获取理事会信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetAffairsCouncil">
+            <summary>
+            获取常务理事会信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetWorkingCommitteeList(System.Int32,System.Int32)">
+            <summary>
+            获取工作委员会列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetWorkingCommittee(System.Int32)">
+            <summary>
+            获取工作委员会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetProfessionalBranchList(System.Int32,System.Int32)">
+            <summary>
+            获取专业分会列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetProfessionalBranch(System.Int32)">
+            <summary>
+            获取专业分会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetLocalAssociationList(System.Int32,System.Int32)">
+            <summary>
+            获取地方学会列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetLocalAssociation(System.Int32)">
+            <summary>
+            获取地方学会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetUnitMemberList(System.Int32,System.Int32)">
+            <summary>
+            获取单位学会列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AboutSocietyProvider.GetUnitMember(System.Int32)">
+            <summary>
+            获取单位学会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam">
+            <summary>
+            获取期刊列表检索条件
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam._orderType">
+            <summary>
+            排序方式
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam.sourceTypeID">
+            <summary>
+            学术资源分类ID 1：期刊；2：出版物； 3:论文；
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam.parenId">
+            <summary>
+            父级ID
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam.orderType">
+            <summary>
+            排序方式 正序：asc ；倒序：desc
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam.year">
+            <summary>
+            年度
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam.periodNumber">
+            <summary>
+            期数
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.GetAcademicResourcesMenuParam">
+            <summary>
+            获取目录列表检索条件
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.Providers.GetAcademicResourcesMenuParam._orderType">
+            <summary>
+            排序方式
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.GetAcademicResourcesMenuParam.orderType">
+            <summary>
+            排序方式 正序：asc ；倒序：desc
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider">
+            <summary>
+            学术资源
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.GetAcademicResourcesListForApp(AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam)">
+            <summary>
+            获取学术资源列表应用
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.GetAcademicResourcesList(AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam,System.Boolean)">
+            <summary>
+            获取学术资源列表
+            </summary>
+            <param name="Param"></param>
+            <param name="isPublish"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.GetAcademicResourcesMenu(AeronauticalSociety.BusinessLayer.Providers.GetAcademicResourcesMenuParam)">
+            <summary>
+            获取目录
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.GetAcademicResourcesFile(System.Int32)">
+            <summary>
+            获取学术资源详细
+            </summary>
+            <param name="parentID">父级ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.GetAcademicResourcesListForManager(AeronauticalSociety.BusinessLayer.Providers.GetPeriodicalListParam)">
+            <summary>
+            获取学术资源列表
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.AddAcademicResources(AeronauticalSociety.Model.AcademicResources)">
+            <summary>
+            保存学术资源信息
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.UpdateAcademicResources(AeronauticalSociety.Model.AcademicResources)">
+            <summary>
+            修改学术资源信息
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.UpdatePublishStatue(AeronauticalSociety.Model.AcademicResources)">
+            <summary>
+            修改学术资源发布状态
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.GetAcademicResources(System.Int32)">
+            <summary>
+            获取学术资源详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.DelAcademicResources(System.Int32)">
+            <summary>
+            删除学术资源
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.DelAcademicResources(AeronauticalSociety.Model.AcademicResources)">
+            <summary>
+            删除学术资源
+            </summary>
+            <param name="Resource"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.DelAcademicResourcesByParentID(System.Int32)">
+            <summary>
+            根据父级id删除学术资源
+            </summary>
+            <param name="parentID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.SaveResourcesFile(AeronauticalSociety.Model.AcademicResources_File)">
+            <summary>
+            保存资源文件
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.AddResourcesFile(AeronauticalSociety.Model.AcademicResources_File)">
+            <summary>
+            新建资源文件
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.UpdateResourcesFile(AeronauticalSociety.Model.AcademicResources_File)">
+            <summary>
+            修改资源文件
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.DelResourcesFileByParent(System.Int32)">
+            <summary>
+            删除资源文件
+            </summary>
+            <param name="parentd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.DelMenuByParent(System.Int32)">
+            <summary>
+            根据父级ID删除目录
+            </summary>
+            <param name="parentID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.AddResourceMenu(AeronauticalSociety.Model.AcademicResources_Menu)">
+            <summary>
+            新建目录
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.UpdateResourceMenu(AeronauticalSociety.Model.AcademicResources_Menu)">
+            <summary>
+            修改目录
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.DelResourceMenu(System.Int32)">
+            <summary>
+            删除目录
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AcademicResourcesProvider.GetAcademicResourcesMenuDetail(System.Int32)">
+            <summary>
+            获取目录详细信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.RegUserResult">
+            <summary>
+            注册用户结果
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.RegUserResult.isSuccess">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.RegUserResult.errMessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.LoginResult">
+            <summary>
+            登录认证结果
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.LoginResult.isSuccess">
+            <summary>
+            是否认证成功
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.LoginResult.errMessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.LoginResult.UserInfo">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.LoginInParam">
+            <summary>
+            登录认证参数
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.LoginInParam.Param1">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.LoginInParam.Param2">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.BindMemberParam">
+            <summary>
+            绑定会员证参数
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.BindMemberParam.UserName">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.BindMemberParam.MemberCode">
+            <summary>
+            会员证号
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.BindMemberParam.UserKey">
+            <summary>
+            用户Key
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.UpdatePasswordParam">
+            <summary>
+            修改密码参数
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.UpdatePasswordParam.Param1">
+            <summary>
+            旧密码
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.UpdatePasswordParam.Param2">
+            <summary>
+            新密码
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.UpdatePasswordResult">
+            <summary>
+            修改密码结果
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.UpdatePasswordResult.isSuccess">
+            <summary>
+            执行结果
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.UpdatePasswordResult.errMessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.BindMemberResult">
+            <summary>
+            会员绑定结果
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.BindMemberResult.isSuccess">
+            <summary>
+            绑定结果
+            </summary>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.BindMemberResult.errMessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.GetBrowsePermissions">
+            <summary>
+            获取浏览权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.RegUser(AeronauticalSociety.Model.User)">
+            <summary>
+            用户注册
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.RegUserCommit(AeronauticalSociety.Model.User)">
+            <summary>
+            提交用户注册数据
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.CheckUserData(AeronauticalSociety.Model.User)">
+            <summary>
+            验证用户
+            </summary>
+            <param name="Data"></param>
+            <param name="type">0:新建；1:编辑</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.CheckUserName(AeronauticalSociety.Model.User)">
+            <summary>
+            验证用户名
+            </summary>
+            <param name="Data"></param>
+            <param name="type">0:新建；1:编辑</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.LoginNameIsRepeat(System.String,System.Guid)">
+            <summary>
+            验证用户是否存在
+            </summary>
+            <param name="LoginName"></param>
+            <param name="UserKey">新建时为空</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.CheckPassword(System.String)">
+            <summary>
+            验证密码
+            </summary>
+            <param name="Password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.EncryptPassword(System.String)">
+            <summary>
+            加密密码
+            </summary>
+            <param name="Password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.CheckIn(AeronauticalSociety.BusinessLayer.Providers.LoginInParam)">
+            <summary>
+            登录认证
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.AdminCheckIn(AeronauticalSociety.BusinessLayer.Providers.LoginInParam)">
+            <summary>
+            管理员登陆认证
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.WriteLoginLog(System.Guid,System.String)">
+            <summary>
+            记录登录日志
+            </summary>
+            <param name="UserKey"></param>
+            <param name="UserName"></param>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.SetSession(AeronauticalSociety.Model.User)">
+            <summary>
+            设置Session
+            </summary>
+            <param name="Data"></param>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.ClearSession">
+            <summary>
+            清空Session
+            </summary>
+            <param name="Data"></param>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.CheckOut">
+            <summary>
+            退出登录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.BindMember(AeronauticalSociety.BusinessLayer.Providers.BindMemberParam)">
+            <summary>
+            注册用户绑定
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.GetMember(System.String)">
+            <summary>
+            获取用户详细信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.UpdatePassword(AeronauticalSociety.BusinessLayer.Providers.UpdatePasswordParam)">
+            <summary>
+            修改登录密码
+            </summary>
+            <param name="Param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.UpdateMember(AeronauticalSociety.Model.Member)">
+            <summary>
+            修改用户信息
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.GetCurrentUser">
+            <summary>
+            获取当前用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.GetAreaList">
+            <summary>
+            获取所在地区
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.GetBranchList">
+            <summary>
+            获取专业分会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.GetProfessionList">
+            <summary>
+            获取专业列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AccountProvider.GetOccupationList">
+            <summary>
+            获取职业列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider">
+            <summary>
+            广告管理
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.GetAdvertisementList(System.Int32)">
+            <summary>
+            获取广告列表
+            </summary>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.GetAdvertisementes(AeronauticalSociety.BusinessLayer.Providers.GetAdvertisementesParam)">
+            <summary>
+            获取广告列表
+            </summary>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.GetAdvertisement(System.Int32)">
+            <summary>
+            获取广告详细信息
+            </summary>
+            <param name="key">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(AeronauticalSociety.Model.Advertisement)">
+            <summary>
+            修改广告信息
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.GetImageBase64(System.String)">
+            <summary>
+            读取图片
+            </summary>
+            <param name="Path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.InsterAdvertisement(AeronauticalSociety.Model.Advertisement)">
+            <summary>
+            新建广告信息
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.StopAdvertisement(System.Int32)">
+            <summary>
+            停用广告信息
+            </summary>
+            <param name="key">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.StartAdvertisement(System.Int32)">
+            <summary>
+            启用广告信息
+            </summary>
+            <param name="key">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.DelAdvertisement(System.Int32)">
+            <summary>
+            删除广告信息
+            </summary>
+            <param name="key">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.AdvertisementClickCount(System.Int32)">
+            <summary>
+            记录广告点击次数
+            </summary>
+            <param name="key">主键</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.AssociationProvider">
+            <summary>
+            学会动态
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.CollectionProvider">
+            <summary>
+            收藏文章
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.CollectionProvider.GetCollectionList(System.Int32,System.Int32)">
+            <summary>
+            获取收藏列表
+            </summary>
+            <param name="Start"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.CollectionProvider.AddColletion(AeronauticalSociety.Model.Collection)">
+            <summary>
+            添加收藏    
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.CollectionProvider.IsCollection(System.Int32,System.Int32)">
+            <summary>
+            验证文章是否被收藏
+            </summary>
+            <param name="aid">文章ID</param>
+            <param name="userid">当前用户</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.CollectionProvider.DelColletion(System.Int32)">
+            <summary>
+            删除收藏
+            </summary>
+            <param name="cid">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.CollectionProvider.CancelColletion(System.Int32)">
+            <summary>
+            取消收藏
+            </summary>
+            <param name="aid">文章编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.ConcernsProvider.GetConcernsList(System.Int32,System.Int32)">
+            <summary>
+            获取关注作者列表
+            </summary>
+            <param name="Start"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.ConcernsProvider.AddConcerns(AeronauticalSociety.Model.Concerns)">
+            <summary>
+            添加关注    
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.ConcernsProvider.IsFocues(System.String,System.Int32)">
+            <summary>
+            验证作者是否被关注
+            </summary>
+            <param name="author">作者</param>
+            <param name="userid">当前用户</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.ConcernsProvider.DelConcerns(System.Int32)">
+            <summary>
+            删除关注
+            </summary>
+            <param name="cid">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.ConcernsProvider.CancelConcerns(System.String)">
+            <summary>
+            取消关注
+            </summary>
+            <param name="author">作者</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.RoleAttribute">
+            <summary>
+            角色属性基类
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.RoleLoginAttrbute">
+            <summary>
+            需要登陆
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.RoleAdminAttrbute">
+            <summary>
+            需要管理员
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.RoleSuperAdminAttrbute">
+            <summary>
+            需要超级管理员
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.CustomerAuthorizeAttribute">
+            <summary>
+            权限
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.CustomerAuthorizeAttribute.CheckAuthor(System.String)">
+            <summary>
+            权限验证
+            </summary>
+            <param name="RoleType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.CustomerAuthorizeAttribute.isLogin">
+            <summary>
+            验证是否登陆
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider">
+            <summary>
+            数据缓存类
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider._DataCache">
+            <summary>
+            数据缓存变量
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider.SetCache(System.String,System.Object)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="Key"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider.GetCache(System.String)">
+            <summary>
+            获取数据缓存
+            </summary>
+            <param name="Key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider.ClearCache">
+            <summary>
+            清除缓存
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider.RemoveCache(System.String)">
+            <summary>
+            移除缓存
+            </summary>
+            <param name="Key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider.FormatKey(System.String)">
+            <summary>
+            格式化键值
+            </summary>
+            <param name="Key">键值</param>
+            <returns></returns>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider.DataCache">
+            <summary>
+            数据缓存变量
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch">
+            <summary>
+            缓存Json数据
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch.StartJsonDataCatch">
+            <summary>
+            缓存jsonData
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch.SetCache``1(AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider,System.String)">
+            <summary>
+            设置缓存
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Provider"></param>
+            <param name="JSONPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch.CacheRole(AeronauticalSociety.BusinessLayer.Providers.DataCacheProvider)">
+            <summary>
+            缓存角色信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.JsonDataHelp.GetJsonData``1(System.String)">
+            <summary>
+            加载json数据
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="FilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.JsonDataHelp.LoadJsonStr(System.String)">
+            <summary>
+            读取json文件
+            </summary>
+            <param name="FilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="P:AeronauticalSociety.BusinessLayer.Providers.JsonDataHelp.JsonFileDir">
+            <summary>
+            json数据文件存放路径
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetMainMenu">
+            <summary>
+            获取主菜单数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetNewMenu">
+            <summary>
+            获取新闻二级菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetAssociationMenu">
+            <summary>
+            获取学会动态菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetAboutMenu">
+            <summary>
+            获取关于学会菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetManagementRegulations">
+            <summary>
+            获取管理条例二级目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetNewTypeID(System.Int32)">
+            <summary>
+            获取新闻分类
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetAssociationTypeID(System.Int32)">
+            <summary>
+            获取学会动态分类
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetAboutTypeID(System.Int32)">
+            <summary>
+            获取关于学会分类
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetAcademicResourceMenu">
+            <summary>
+            获取学术资源菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetPublicationTypeMenu">
+            <summary>
+            获取出版物分类
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetOrganizationalTypes">
+            <summary>
+            获取组织机构分类列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetOrganizationalTypeID(System.Int32)">
+            <summary>
+            获取组织机构分类ID
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetManageRuleses">
+            <summary>
+            获取管理条例列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetManageRulesID(System.Int32)">
+            <summary>
+            获取组织机构分类ID
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MenuProvider.GetAcademicResource">
+            <summary>
+            获取学术资源菜单列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            
+            </summary>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MySqlClient.Inster(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            
+            </summary>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery``1(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            执行Sql
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteScalar(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+             ExecuteScalar返回结果集中的第一行第一列
+            </summary>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject``1(System.Data.DataRow)">
+            <summary>
+            转换数据行
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider">
+            <summary>
+            省市，地区
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetProvinceList">
+            <summary>
+            获取省列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(System.String)">
+            <summary>
+            根据省ID 获取市
+            </summary>
+            <param name="ParentID">省ID</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.GetNewsByTypeIDParam">
+            <summary>
+            根据新闻类型获取新闻列表参数
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.GetNewsBySearchKeyParam">
+            <summary>
+            根据检索关键字获取新闻列表参数
+            </summary>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.NewsProvider">
+            <summary>
+            新闻
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetHeadline(System.Int32)">
+            <summary>
+            获取头条新闻
+            </summary>
+            <param name="Count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.FromateLitpic(System.Collections.Generic.List{AeronauticalSociety.Model.Archives})">
+            <summary>
+            格式化图片地址
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(System.Int32,System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            根据新闻类型获取新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <param name="TypeID"></param>
+            <param name="Author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNewsByTypeID(System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            根据新闻类型获取新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <param name="TypeID"></param>
+            <param name="Author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetCollectionList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取收藏列表
+            </summary>
+            <param name="StartRow">开始行</param>
+            <param name="PageSize">页面数据大小</param>
+            <param name="userID">用户ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetTextNews(System.Int32,System.Int32)">
+            <summary>
+            获取普通新闻列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetImageNews(System.Int32,System.Int32)">
+            <summary>
+            获取图片新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetVideoNews(System.Int32,System.Int32)">
+            <summary>
+            获取视频新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetColumnsNews(System.Int32,System.Int32)">
+            <summary>
+            获取专题新闻列表
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetAssociation(System.Int32,System.Int32)">
+            <summary>
+            获取学会工作
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetNotices(System.Int32,System.Int32)">
+            <summary>
+            获取通知通告
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetActions(System.Int32,System.Int32)">
+            <summary>
+            学会活动
+            </summary>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetArticleDetial(System.Int32)">
+            <summary>
+            获取文章详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.IsFocues(System.String,System.Int32)">
+            <summary>
+            验证作者是否被关注
+            </summary>
+            <param name="author">作者</param>
+            <param name="userid">当前用户</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.IsCollection(System.Int32,System.Int32)">
+            <summary>
+            验证文章是否被收藏
+            </summary>
+            <param name="aid">文章ID</param>
+            <param name="userid">当前用户</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.UpdataClickCount(System.Int32)">
+            <summary>
+            修改点击次数
+            </summary>
+            <param name="aid"></param>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetArchives(System.Int32)">
+            <summary>
+            获取文章配置信息
+            </summary>
+            <param name="aid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.NewsProvider.GetAddonarticle(System.Int32)">
+            <summary>
+            获取文章内容信息
+            </summary>
+            <param name="aid"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider">
+            <summary>
+            年度工作计划
+            </summary>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.GetWorkPlanList(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            获取年度工作计划
+            </summary>
+            <param name="Year"></param>
+            <param name="Month"></param>
+            <param name="StartRow"></param>
+            <param name="PageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.GetWorkPlanDetial(System.Int32)">
+            <summary>
+            获取年度计划详情
+            </summary>
+            <param name="wid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.GetWorkPlanContacts(System.Int32)">
+            <summary>
+            获取联系人
+            </summary>
+            <param name="wpid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.AddWorkPlan(AeronauticalSociety.Model.WorkPlan)">
+            <summary>
+            新建工作计划
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.SaveWorkPlanContacts(AeronauticalSociety.Model.WorkPlan)">
+            <summary>
+            保存联系人
+            </summary>
+            <param name="Data">数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.AddWorkPlanContacts(AeronauticalSociety.Model.WorkPlanContacts,System.Int32)">
+            <summary>
+            新建工作计划联系人
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.UpdateWorkPlanContacts(AeronauticalSociety.Model.WorkPlanContacts)">
+            <summary>
+            修改工作计划联系人
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.DelWorkPlanContacts(System.Int32)">
+            <summary>
+            删除联系人
+            </summary>
+            <param name="cid">联系人ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.UpdateWorkPlan(AeronauticalSociety.Model.WorkPlan)">
+            <summary>
+            修改工作计划
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeronauticalSociety.BusinessLayer.Providers.WorkPlanProider.DelWorkPlan(System.Int32)">
+            <summary>
+            删除工作计划
+            </summary>
+            <param name="wid">工作计划id</param>
+            <returns></returns>
+        </member>
+        <member name="T:AeronauticalSociety.BusinessLayer.SystemConstant.Constant">
+            <summary>
+            系统常量
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.MainMenuJsonFile">
+            <summary>
+            主菜单json文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.NewsMenuJsonFile">
+            <summary>
+            新闻菜单json文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.AssociationMenuJsonFile">
+            <summary>
+            学会动态菜单json文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.AboutJsonFile">
+            <summary>
+            关于学会菜单json文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ManagementRegulationsJsonFile">
+            <summary>
+            管理条例菜单json文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.OrganizationalTypeJsonFile">
+            <summary>
+             组织分类json文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.AcademicResourceJsonFile">
+            <summary>
+             学术资源json文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.PublicationTypeJsonFile">
+            <summary>
+             学术资源json文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ContentDataJsonFile">
+            <summary>
+             联系我们文件名称
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.TextNewsID">
+            <summary>
+            航空新闻类型ID
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ImageNewsID">
+            <summary>
+            航空图片类型ID
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.VideoNewsID">
+            <summary>
+            航空视频类型ID
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ColumnsID">
+            <summary>
+            专栏类型ID
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.AssociationID">
+            <summary>
+            学会工作
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.NoticeID">
+            <summary>
+            通知公告
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ActionID">
+            <summary>
+            学会活动
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.SocietyIntroductionID">
+            <summary>
+            学会简介
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ConstitutionID">
+            <summary>
+            学会章程
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.HonorID">
+            <summary>
+            学会荣誉
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.OrganizationalID">
+            <summary>
+            组织机构
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ManageRulesID">
+            <summary>
+            管理条例
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.RecognitionAwardID">
+            <summary>
+            表彰奖励管理条例
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.AcademicWorkID">
+            <summary>
+            学术工作管理条例
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.OrgaincRulesID">
+            <summary>
+            组织条例
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.OrganizationStructureID">
+            <summary>
+            组织结构
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.CouncilID">
+            <summary>
+            理事会
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.AffairsCouncilID">
+            <summary>
+            常务理事会
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.WorkingCommitteeID">
+            <summary>
+            工作委员会
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ProfessionalBranchID">
+            <summary>
+            专业分会
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.LocalAssociationID">
+            <summary>
+            地方学会
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.UnitMemberID">
+            <summary>
+            单位会员
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.ConnectionString">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.csaaAddress">
+            <summary>
+            官网地址
+            </summary>
+        </member>
+        <member name="F:AeronauticalSociety.BusinessLayer.SystemConstant.Constant.DefaultImage">
+            <summary>
+            默认图片地址
+            </summary>
+        </member>
+    </members>
+</doc>

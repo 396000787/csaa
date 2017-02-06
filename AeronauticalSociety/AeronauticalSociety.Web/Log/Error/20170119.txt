@@ -1,0 +1,1042 @@
+2017-01-19 10:28:38 911 AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch
+模块名称：缓存角色信息
+方法名称：CacheRole
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch.CacheRole(DataCacheProvider Provider) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\JsonDataCatch.cs:行号 89
+==============================================
+2017-01-19 10:29:23 803 AeronauticalSociety.BusinessLayer.Providers.AccountProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AccountProvider
+模块名称：管理员登陆认证
+方法名称：AdminCheckIn
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.AdminCheckIn(LoginInParam Param) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 466
+==============================================
+2017-01-19 10:29:34 859 AeronauticalSociety.BusinessLayer.Providers.AccountProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AccountProvider
+模块名称：管理员登陆认证
+方法名称：AdminCheckIn
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.AdminCheckIn(LoginInParam Param) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 466
+==============================================
+2017-01-19 10:43:08 278 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 10:43:08 419 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 10:43:08 544 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 10:43:08 685 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 10:43:08 810 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:11:01 820 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:11:01 976 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:11:02 113 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:11:02 246 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:11:02 396 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:11:06 887 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:11:06' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:11:22 684 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:11:22' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:11:23 288 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:11:23' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:11:23 940 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:11:23' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:11:24 614 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:11:24' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:11:25 248 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:11:25' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:11:25 752 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:11:25' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:11:26 416 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:11:26' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:12:05 775 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:12:05' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:13:18 623 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:13:18' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:14:43 118 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:14:43' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:15:30 442 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:15:30' where id=0' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:19:38 008 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：修改广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index=0, lastModifyTime='2017-01-19  14:19:37' where id=1' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.UpdateAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 115
+==============================================
+2017-01-19 14:26:31 850 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:26:32 024 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:26:32 171 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:26:32 338 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:26:32 476 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:42:34 396 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:42:34 568 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:42:34 739 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:42:34 896 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:42:35 052 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:59:55 395 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:59:55 535 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:59:55 707 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:59:55 848 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 14:59:56 004 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:01:34 907 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:01:35 110 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:01:35 328 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:01:35 516 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:01:35 719 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:02:05 626 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:02:05 750 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:02:05 891 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:02:06 031 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:02:06 156 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:02:06 312 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:02:09 468 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:02:43 681 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:03:07 662 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:03:45 353 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:03:45 540 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:03:45 712 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:03:45 884 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:03:46 056 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:03:46 228 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:03:47 934 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:05:25 704 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:12:16 217 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:14:41 266 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:29:02 801 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:29:38 620 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 15:31:05 751 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:04:00 616 AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch
+模块名称：缓存角色信息
+方法名称：CacheRole
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.JsonDataCatch.CacheRole(DataCacheProvider Provider) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\JsonDataCatch.cs:行号 89
+==============================================
+2017-01-19 19:05:38 602 AeronauticalSociety.BusinessLayer.Providers.AccountProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AccountProvider
+模块名称：管理员登陆认证
+方法名称：AdminCheckIn
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.AdminCheckIn(LoginInParam Param) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 466
+==============================================
+2017-01-19 19:05:53 652 AeronauticalSociety.BusinessLayer.Providers.AccountProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AccountProvider
+模块名称：管理员登陆认证
+方法名称：AdminCheckIn
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 133
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.AdminCheckIn(LoginInParam Param) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 466
+==============================================
+2017-01-19 19:10:06 819 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:10:07 147 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:10:07 413 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:10:07 694 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:10:07 959 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:10:08 225 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:10:08 491 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:11:13 296 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:11:13 578 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:11:13 843 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:11:14 136 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:11:14 391 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:11:14 657 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-19 19:11:14 907 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================

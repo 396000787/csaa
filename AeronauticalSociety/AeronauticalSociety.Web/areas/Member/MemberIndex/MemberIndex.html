@@ -1,0 +1,121 @@
+
+<ion-view id="MemberIndex" view-title="会员中心" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-positive">
+        <h1 class="title">会员中心</h1>
+    </div>
+    <style>
+        #MemberIndex-content .row .col {
+            text-align: center;
+        }
+
+        #MemberIndex-content .list .item {
+            padding-left: 40px;
+        }
+
+        #MemberIndex-content .row .col .btn {
+            text-align: center;
+            display: inline-block;
+            padding: 8px 15px;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #0085d0;
+        }
+
+        #MemberIndex-content .UserInfo li {
+            padding-left: 40px;
+            height: 60px;
+            color: #128cd7;
+            line-height: 60px;
+            font-size: 18px;
+            border-bottom: 1px solid #128cd7;
+        }
+
+        #MemberIndex-content .UserInfo .right {
+            padding-right: 20px;
+            float: right;
+        }
+
+        #MemberIndex-content .bindUserInfo {
+            text-align: center;
+            display: inline-block;
+            padding: 8px 15px;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #0085d0;
+            width: 100%;
+        }
+    </style>
+    <ion-content id="MemberIndex-content" class="scroll-content zk_content" scroll="true">
+        <div>
+            <div ng-click="SeeUserInfo()" style="height:80px;line-height:80px;padding-left:40px;padding-right:20px; font-size:24px;color:#0185cf;border-bottom:1px solid #e5e5e5;">
+                欢迎,{{loginName}}
+                <span style="float:right;" class="ion-chevron-right"></span>
+            </div>
+            <div class="row" style="padding:10px 0px; border-bottom:1px solid #e5e5e5;">
+                <div class="col">
+                    <span class="btn" ng-click="Follow()">
+                        关注
+                    </span>
+                </div>
+                <div class="col">
+                    <span class="btn" ng-click="Collection()">
+                        收藏
+                    </span>
+                </div>
+                <div class="col">
+                    <span class="btn disabled" ng-click="Release()">
+                        发布
+                    </span>
+                </div>
+            </div>
+            <div ng-show="isShow" style="margin:20px 0px;">
+                <ul class="UserInfo">
+                    <li>
+                        会员信息<span class="right">{{levelName}}</span>
+                    </li>
+                    <li>
+                        会员证号<span class="right">{{memberCode}}</span>
+                    </li>
+                </ul>
+            </div>
+            <div ng-show="!isShow" style="width:100%;text-align:center;padding:30px 20px 30px 30px;">
+                <span class="bindUserInfo" ng-click="bindUserInfo()">
+                    绑定会员信息
+                </span>
+            </div>
+            <div>
+                <ul class="list">
+                    <li class="item item-icon-right" ng-click="changPassword();" style="border-top:none;">
+                        修改密码
+                        <span class="icon ion-chevron-right"></span>
+                    </li>
+                    <li class="item item-icon-right disabled">
+                        消息通知(未开放)
+                        <!--<span class="badge badge-assertive" style="right:50px;">0</span>-->
+                        <span class="icon ion-chevron-right"></span>
+                    </li>
+                    <li class="item item-icon-right">
+                        我的发布(未开放)
+                        <span class="icon ion-chevron-right"></span>
+                    </li>
+                    <li class="item item-icon-right">
+                        活动报名(未开放)
+                        <span class="icon ion-chevron-right"></span>
+                    </li>
+                    <li class="item item-icon-right">
+                        意见反馈(未开放)
+                        <span class="icon ion-chevron-right"></span>
+                    </li>
+                </ul>
+            </div>
+            <div style="width:100%;text-align:center;padding:30px 20px 30px 30px;">
+                <span class="bindUserInfo" ng-click="Exit()">
+                    退出
+                </span>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

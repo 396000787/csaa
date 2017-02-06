@@ -1,0 +1,130 @@
+<ion-view id="memberDetial" view-title="会员信息" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title">会员信息</h1>
+    </div>
+    <style>
+        #memberDetial #memberDetial-content {
+            margin-top: 50px;
+            color: #0085d0;
+        }
+
+        #memberDetial .dengji {
+            width: 100%;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+        }
+
+        #memberDetial .formListNode {
+            position: relative;
+            padding: 0px;
+            margin: 0px;
+            padding: 20px 20px 20px 30px;
+            font-size: 16px;
+            border-bottom: solid 1px #cce8f6;
+        }
+
+            #memberDetial .formListNode .rgith {
+                display: inline-block;
+                float: right;
+            }
+
+            #memberDetial .formListNode input {
+                color: #0085d0;
+            }
+
+        #memberDetial .register {
+            width: 100%;
+            text-align: center;
+            padding: 40px;
+        }
+
+            #memberDetial .register span {
+                color: #fff;
+                cursor: pointer;
+                border-radius: 30px;
+                padding: 15px 40px;
+                background-color: #0085d0;
+            }
+
+        #memberDetial .ErrorPrompt {
+            padding-left: 30px;
+            margin-top: 10px;
+            color: #ff0000;
+        }
+    </style>
+    <ion-content id="memberDetial-content" class="scroll-content" scroll="true">
+        <div>
+            <ul>
+                <li class="formListNode">
+                    <span style="font-weight:800;font-size:18px">用户信息</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">用户名</span><span class="rgith">{{data.loginName}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">性别</span><span class="rgith">{{data.sex}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">年龄</span><span class="rgith">{{data.age}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">手机号码</span><span class="rgith">{{data.mobileNO}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">电子邮箱</span><span class="rgith">{{data.email}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">专业</span><span class="rgith">{{data.professionName}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">职业</span><span class="rgith">{{data.occupationName}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">地区</span><span class="rgith">{{data.addressProvince}}<span ng-show="data.addressCity==''?false:true">--</span>{{data.addressCity}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">地址</span><span class="rgith">{{data.address}}</span>
+                </li>
+            </ul>
+        </div>
+        <div ng-show="showMember">
+            <ul>
+                <li class="formListNode">
+                    <span style="font-weight:800;font-size:18px">会员信息</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">姓名</span><span class="rgith">{{data.userName}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">会员证号</span><span class="rgith">{{data.memberCode}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">会员等级</span><span class="rgith">{{data.memberType}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">本会任职</span><span class="rgith">{{data.post}}</span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">所在分会</span>
+                    <span class="rgith">
+                        {{data.branchName}}
+                    </span>
+                </li>
+                <li class="formListNode">
+                    <span class="left">会员状态</span><span class="rgith">{{data.state}}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="register" ng-click="save()">
+            <span class="registerBtn">编辑</span>
+        </div>
+        <!--</div>-->
+    </ion-content>
+</ion-view>

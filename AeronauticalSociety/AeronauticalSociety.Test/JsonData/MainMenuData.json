@@ -1,0 +1,50 @@
+﻿[
+    {
+        "ID": 1,
+        "Index": 1,
+        "MenuName": "新闻中心",
+        "Ico": "img/home/xinwenzhongxin.png",
+        "Url": "tab/newsCenter",
+        "TypeID": ""
+    },
+    {
+        "ID": 2,
+        "Index": 2,
+        "MenuName": "学会动态",
+        "Ico": "img/home/xuehuizhongtie.png",
+        "Url": "tab/LearningDynamics",
+        "TypeID": ""
+    },
+    {
+        "ID": 3,
+        "Index": 3,
+        "MenuName": "我的活动",
+        "Ico": "img/home/wodehuodong.png",
+        "Url": "",
+        "TypeID": ""
+    },
+    {
+        "ID": 4,
+        "Index": 4,
+        "MenuName": "学术资源",
+        "Ico": "img/home/xuehsuziyuan.png",
+        "Url": "",
+        "TypeID": ""
+    },
+    {
+        "ID": 5,
+        "Index": 5,
+        "MenuName": "会员中心",
+        "Ico": "img/home/huiyuanzhongxin.png",
+        "Url": "tab/Login",
+        "TypeID": ""
+    },
+    {
+        "ID": 6,
+        "Index": 6,
+        "MenuName": "关于学会",
+        "Ico": "img/home/guanyuxuehui.png",
+        "Url": "",
+        "TypeID": ""
+    }
+]

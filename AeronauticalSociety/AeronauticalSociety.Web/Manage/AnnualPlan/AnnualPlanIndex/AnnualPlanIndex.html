@@ -1,0 +1,60 @@
+﻿<div>
+    <form class="form-inline" role="form">
+        <div class="form-group">
+            <label  for="Param_Name">计划名称</label>
+            <input type="text" class="form-control" id="Param_Name">
+        </div>
+        <div class="form-group">
+            <label  for="Param_StartTime">时间</label>
+            <input type="text" id="Param_StartTime" class="StartTime form-control" />
+            <input type="text" id="Param_EndTime" class="EndTime form-control" />
+        </div>
+        <button type="submit" class="btn btn-default" ng-click="SearchData()">查询</button>
+    </form>
+
+    <div class="text-right">
+        <span class="btn btn-default" ng-click="new()">新增工作计划</span>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>名称</th>
+                <th>地址</th>
+                <th>规模</th>
+                <th>内容</th>
+                <th>开始时间</th>
+                <th>结束时间</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in listData">
+                <td>
+                    {{item.name}}
+                </td>
+                <td>
+                    {{item.addressProvince}}--{{item.addressCity}}
+                </td>
+                <td>
+                    {{item.scale}}
+                </td>
+                <td>
+                    {{item.content}}
+                </td>
+                <td>
+                    {{item.startTime | DateFormat}}
+                </td>
+                <td>
+                    {{item.endTime | DateFormat}}
+                </td>
+                <td>
+                    <!--<span class="btn btn-link" ng-click="SeeInfo(item)">查看</span>-->
+                    <span class="btn btn-link" ng-click="Delete(item)">删除</span>
+                    <span class="btn btn-link" ng-click="Edit(item)">编辑</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="page"></div>
+</div>

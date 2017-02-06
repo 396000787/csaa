@@ -1,0 +1,14 @@
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\AeronauticalSociety.Log.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\AeronauticalSociety.Log.pdb
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\MySql.Data.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\TinyStack.Modules.iSqlHelper.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\TinyStack.Modules.iUtility.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\Newtonsoft.Json.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\Polenter.SharpSerializer.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\TinyStack.Modules.iSqlHelper.pdb
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\TinyStack.Modules.iUtility.pdb
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\obj\Debug\AeronauticalSociety.Log.csprojResolveAssemblyReference.cache
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\obj\Debug\AeronauticalSociety.Log.dll
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\obj\Debug\AeronauticalSociety.Log.pdb
+C:\work\net\bj\AeronauticalSociety\Modules\AeronauticalSociety.Log\bin\Debug\Newtonsoft.Json.xml

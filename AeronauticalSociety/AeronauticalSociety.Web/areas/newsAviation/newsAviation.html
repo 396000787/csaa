@@ -1,0 +1,29 @@
+<ion-view id="newsAviation" view-title="newsAviation" hide-back-button="true" cache-view="false">
+    <!--头部搜-->
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title">新闻中心</h1>
+    </div>
+    <ion-content id="newsAviation-content" class="scroll-content zk_content">
+        <ion-refresher pulling-text="获取最新数据..."
+                       refreshing-text="刷新完毕"
+                       on-refresh="func_refreshGoodsList()">
+        </ion-refresher>
+        <div class="list">
+            <a class="item item-thumbnail-left" ng-click="details(item)" ng-repeat="item in NewsListData">
+                <img ng-src="{{item.litpic}}">
+                <h2>{{item.title}}</h2>
+                <br />
+                <p>{{item.pubdate | DateFormat}}</p>
+            </a>
+        </div>
+        <div ng-hide="!pms_isMoreItemsAvailable" style="text-align: center">
+            <span>已经到了最后一页！</span>
+        </div>
+        <ion-infinite-scroll ng-if="!pms_isMoreItemsAvailable" icon="ion-loading-c" on-infinite="func_loadMoreGoodsList()" distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

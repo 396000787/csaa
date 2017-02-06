@@ -1,0 +1,150 @@
+<ion-view id="Register" view-title="账号注册" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk">
+        <h1 class="title">账号注册</h1>
+    </div>
+    <ion-content id="Register-content" class="scroll-content" scroll="true" style="padding-top:43px;">
+        <style>
+            .Ico_Logo {
+                margin-top: 50px;
+                margin-bottom: 30px;
+                width: 100%;
+                text-align: center;
+            }
+
+                .Ico_Logo img {
+                    width: 80%;
+                }
+
+            .formListNode {
+                width: 100%;
+                height: 50px;
+                padding: 0px 20px;
+                line-height: 50px;
+                border-radius: 30px;
+                margin-bottom: 5px;
+                background-color: #e5f4fb;
+                vertical-align: middle;
+            }
+
+                .formListNode:first-child {
+                    margin-bottom: 5px;
+                }
+
+                .formListNode input {
+                    height: 40px;
+                    width: 100%;
+                    font-size: 18px;
+                    padding-left: 35px;
+                    border: none;
+                    color: #0185cf;
+                    background-color: transparent;
+                    vertical-align: middle;
+                }
+
+
+                    .formListNode input::-webkit-input-placeholder {
+                        color: #0185cf;
+                        font-size: 20px;
+                    }
+
+
+                .formListNode .UserName {
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    background-position: 0px center;
+                    background-image: url('../../img/Login/Ico_Login_User.png');
+                }
+
+                .formListNode .Password {
+                    display: inline-block;
+                    vertical-align:middle;
+                    line-height:20px;
+                    background-repeat: no-repeat;
+                    background-size: 20px;
+                    background-position: 0px center;
+                    background-image: url('../../img/Login/Ico_Login_password.png');
+                }
+
+            .ErrorPrompt {
+                display: none;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: 14px;
+                color: #0160bc;
+            }
+
+            .LoginBtn {
+                width: 100%;
+                background-color: #0085d0;
+                color: #fff;
+                height: 50px;
+                border-radius: 30px;
+                margin-top: 20px;
+                cursor: pointer;
+                font-size: 20px;
+                text-align: center;
+                line-height: 50px;
+            }
+
+            .register {
+                width: 100%;
+                text-align: right;
+                margin-top: 10px;
+                color: #0286d1;
+                cursor: pointer;
+            }
+
+            .zk_btn {
+                display: inline-block;
+                border-radius: 30px;
+                background-color: #0085d0;
+                color: #fff;
+                width: 100px;
+                text-align: center;
+                padding:10px;
+                cursor: pointer;
+            }
+
+            .zk_right {
+                float: right;
+            }
+        </style>
+        <div class="Ico_Logo">
+            <img src="../../img/Login/Ico_LOGO.png" />
+        </div>
+        <div style="padding:0px 30px;" >
+            <ul>
+                <li class="formListNode">
+                    <input class="UserName" placeholder="账号" ng-model="data.userName" name="data.userName" ng-focus="userNameGetFocus()" ng-blur="userNameLoseFocus()" />
+                </li>
+                <li>
+                    <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+                        <span>{{userNameErr}}</span>
+                    </span>
+                </li>
+                <li class="formListNode" style="margin-bottom:10px;">
+                    <input class="Password" placeholder="密码" type="password" ng-model="data.password" name="password" ng-focus="passwordFocus()" ng-blur="passwordLoseFocus()" />
+                </li>
+                <li>
+                    <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+                        <span>{{passwordErr}}</span>
+                    </span>
+                </li>
+                <li class="formListNode">
+                    <input class="Password" placeholder="确认密码" type="password" ng-model="data.regPassword" name="regPassword" ng-focus="regPasswordFocus()" ng-blur="regPasswordLoseFocus()" />
+                </li>
+                <li>
+                    <span style="color:red;height:30px;margin-left:30px; line-height:30px;">
+                        <span>{{regPasswordErr}}</span>
+                    </span>
+                </li>
+            </ul>
+            <div style="margin-top:30px;padding:0px 20px;">
+                <span class="zk_btn" ng-click="Cancel()">取消</span>
+                <span class="zk_btn zk_right" ng-click="Reg()">立即注册</span>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,18 @@
+﻿<div style="width:400px;margin:auto;margin-top:100px;">
+    <form role="form">
+        <div class="form-group">
+            <label for="exampleInputUserName">用户名</label>
+            <div>
+                <input type="text" class="form-control" id="exampleInputUserName" placeholder="用户名" ng-model="data.userName" ng-blur="userNameLoseFouces()" ng-focus="userNameFouces()">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">密码</label>
+                <input type="password" class="form-control" ng-model="data.password" id="exampleInputPassword1" placeholder="密码" ng-blur="userPasswordLoseFouces()" ng-focus="userPasswordFouces()">
+            </div>
+            <div>
+                <button type="button" ng-click="btn_Login()" class="btn btn-default">登录</button>
+                <span style="color:red;margin-left:10px;">{{errMessage}}</span>
+            </div>
+            </div>
+    </form>
+</div>

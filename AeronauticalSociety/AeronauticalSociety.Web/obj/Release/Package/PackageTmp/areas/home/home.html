@@ -1,0 +1,29 @@
+<ion-view id="home" view-title="home" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk" style="border-bottom-width:0px;">
+        <h1 class="title">首页</h1>       
+    </div>
+    <ion-content id="home-content ionColor" class="scroll-content ionColor" scroll="true" style="background-color:aliceblue; margin-top:38px;">
+        <!--头部滚动条-->
+        <div class="headerSlider" >
+            <div id="headerSlider" class="swiper-container" style="height:260px;">
+                <div class="swiper-wrapper" style="height:260px;">
+                    <div ng-click="OpenImgLink(item)" class="swiper-slide" ng-repeat="item in headerSlideData">
+                        <div class="swiper-title">{{item.title.length>20?item.title.substring(0,18)+'...':item.title}}</div>
+                        <img alt="{{item.alt}}" ng-src="{{item.litpic}}">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 功能导航 -->
+     <nav id="nav" style="background-color:aliceblue;">
+            <span ng-click="clickMenu(item)" ng-repeat="item in MainMenuList">
+                <img ng-src="{{item.Ico}}" alt="">
+                <h2>{{item.MenuName}}</h2>
+            </span>
+        </nav>
+        <!--回到顶部的区块-->
+        <div class="back_top"></div>
+    </ion-content>
+</ion-view>

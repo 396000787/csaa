@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <!--插件css-->
+    <link href="lib/Swiper/dist/css/swiper.min.css" rel="stylesheet">
+    <link href="css/Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/Bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="lib/jQuery-File-Upload/css/jquery.fileupload.css" rel="stylesheet" />
+    <link href="lib/jQuery-File-Upload/css/jquery.fileupload-ui.css" rel="stylesheet" />
+    <link href="lib/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <!--插件js-->
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/Swiper/dist/js/swiper.min.js"></script>
+    <script src="lib/jquery_lazyload/jquery.lazyload.js"></script>
+    <script src="lib/ionic-image-lazy-load/ionic-image-lazy-load.js"></script>
+    <script src="lib/jquery.cookie.js"></script>
+    <script src="lib/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery_Extend.js"></script>
+    <script src="lib/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.min.js"></script>    
+    <script src="lib/bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+
+    <!--文件上传插件-->
+    <script src="lib/jQuery-File-Upload/js/vendor/jquery.ui.widget.js"></script>
+    <script src="lib/jQuery-File-Upload/js/jquery.iframe-transport.js"></script>
+    <script src="lib/jQuery-File-Upload/js/jquery.fileupload.js"></script>
+    <script src="lib/jQuery-File-Upload/js/jquery.fileupload-angular.js"></script>
+
+    <!-- 全局js文件 -->
+    <script src="js/Manage/app.js"></script>
+    <script src="js/Manage/route.js"></script>
+    <script src="js/Manage/global.js"></script>
+    <script src="js/Manage/config.js"></script>
+    <script src="js/Manage/base64.js"></script>
+
+
+    <!--登录-->
+    <script src="Manage/Login/Login_route.js"></script>
+    <script src="Manage/Login/Login_controller.js"></script>
+    <script src="Manage/Login/Login_service.js"></script>
+
+    <!--广告管理首页-->
+    <script src="Manage/Advertising/AdvertisingIndex/AdvertisingIndex_route.js"></script>
+    <script src="Manage/Advertising/AdvertisingIndex/AdvertisingIndex_controller.js"></script>
+    <script src="Manage/Advertising/AdvertisingIndex/AdvertisingIndex_service.js"></script>
+
+    <!--广告管理编辑-->
+    <script src="Manage/Advertising/AdvertisingEdit/AdvertisingEdit_route.js"></script>
+    <script src="Manage/Advertising/AdvertisingEdit/AdvertisingEdit_controller.js"></script>
+    <script src="Manage/Advertising/AdvertisingEdit/AdvertisingEdit_service.js"></script>
+
+
+    <!--年度管理计划首页-->
+    <script src="Manage/AnnualPlan/AnnualPlanIndex/AnnualPlanIndex_route.js"></script>
+    <script src="Manage/AnnualPlan/AnnualPlanIndex/AnnualPlanIndex_controller.js"></script>
+    <script src="Manage/AnnualPlan/AnnualPlanIndex/AnnualPlanIndex_service.js"></script>
+
+    <!--年度管理计划编辑-->
+    <script src="Manage/AnnualPlan/AnnualPlanEdit/AnnualPlanEdit_route.js"></script>
+    <script src="Manage/AnnualPlan/AnnualPlanEdit/AnnualPlanEdit_controller.js"></script>
+    <script src="Manage/AnnualPlan/AnnualPlanEdit/AnnualPlanEdit_service.js"></script>
+
+
+</head>
+<body style="padding-top:70px;" ng-app="starter">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navigation" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">航空学会</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#AdvertisingIndex">广告管理</a></li>
+                    <li><a href="#AnnualPlanIndex">年度计划管理</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container" ui-view="">
+    </div>
+</body>
+</html>

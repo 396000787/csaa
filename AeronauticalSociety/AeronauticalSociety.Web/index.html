@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/guidePage/guidePage.css" rel="stylesheet">
+    <link href="css/home/home.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet" />
+    <!--插件css-->
+    <link href="lib/Swiper/dist/css/swiper.min.css" rel="stylesheet">
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/cordova/ng-cordova.js"></script>
+    <!-- 全局js文件 -->
+    <script src="js/areas/app.js"></script>
+    <script src="js/areas/route.js"></script>
+    <script src="js/areas/global.js"></script>
+    <script src="js/areas/config.js"></script>
+    <script src="js/areas/base64.js"></script>
+
+    <!--广告页面-->
+    <script src="areas/guidePage/guidePage_route.js"></script>
+    <script src="areas/guidePage/guidePage_controller.js"></script>
+    <script src="areas/guidePage/guidePage_service.js"></script>
+
+    <!--论文列表-->
+    <script src="areas/guidePage/guidePage_route.js"></script>
+    <script src="areas/guidePage/guidePage_controller.js"></script>
+    <script src="areas/guidePage/guidePage_service.js"></script>
+
+    <!--学术资源-->
+    <script src="areas/AcademicResources/IndexList/IndexList_route.js"></script>
+    <script src="areas/AcademicResources/IndexList/IndexList_controller.js"></script>
+    <script src="areas/AcademicResources/IndexList/IndexList_service.js"></script>
+
+
+    <!--论文二级列表-->
+    <script src="areas/AcademicResources/PapersList/PapersList_route.js"></script>
+    <script src="areas/AcademicResources/PapersList/PapersList_controller.js"></script>
+    <script src="areas/AcademicResources/PapersList/PapersList_service.js"></script>
+
+    <!--论文三级列表-->
+    <script src="areas/AcademicResources/PapersList1/PapersList1_route.js"></script>
+    <script src="areas/AcademicResources/PapersList1/PapersList1_controller.js"></script>
+    <script src="areas/AcademicResources/PapersList1/PapersList1_service.js"></script>
+
+    <!--Html展示内容-->
+    <script src="areas/ShowHtml/ShowHtml_route.js"></script>
+    <script src="areas/ShowHtml/ShowHtml_controller.js"></script>
+    <script src="areas/ShowHtml/ShowHtml_service.js"></script>
+
+    <!--关于学会首页-->
+    <script src="areas/AboutLearning/AboutLearningHom/AboutLearningHom_route.js"></script>
+    <script src="areas/AboutLearning/AboutLearningHom/AboutLearningHom_controller.js"></script>
+    <script src="areas/AboutLearning/AboutLearningHom/AboutLearningHom_service.js"></script>
+
+    <!--简介页面-->
+    <script src="areas/AboutLearning/AboutLearningIntroduction/AboutLearningIntroduction_route.js"></script>
+    <script src="areas/AboutLearning/AboutLearningIntroduction/AboutLearningIntroduction_controller.js"></script>
+    <script src="areas/AboutLearning/AboutLearningIntroduction/AboutLearningIntroduction_service.js"></script>
+
+    <!--关于学会首页--学会章程 -->
+    <script src="areas/AboutLearning/AboutLearningShowHtml/AboutLearningShowHtml_route.js"></script>
+    <script src="areas/AboutLearning/AboutLearningShowHtml/AboutLearningShowHtml_controller.js"></script>
+    <script src="areas/AboutLearning/AboutLearningShowHtml/AboutLearningShowHtml_service.js"></script>
+
+    <!--关于学会首页--管理条例 -->
+    <script src="areas/AboutLearning/AboutLearningRegulations/AboutLearningRegulations_route.js"></script>
+    <script src="areas/AboutLearning/AboutLearningRegulations/AboutLearningRegulations_controller.js"></script>
+    <script src="areas/AboutLearning/AboutLearningRegulations/AboutLearningRegulations_service.js"></script>
+
+    <!--关于学会首页--学会荣誉 -->
+    <script src="areas/AboutLearning/AboutLearningHonor/AboutLearningHonor_route.js"></script>
+    <script src="areas/AboutLearning/AboutLearningHonor/AboutLearningHonor_controller.js"></script>
+    <script src="areas/AboutLearning/AboutLearningHonor/AboutLearningHonor_service.js"></script>
+
+    <!--关于学会首页--组织机构 -->
+    <script src="areas/AboutLearning/AboutLearningOrganization/AboutLearningOrganization_route.js"></script>
+    <script src="areas/AboutLearning/AboutLearningOrganization/AboutLearningOrganization_controller.js"></script>
+    <script src="areas/AboutLearning/AboutLearningOrganization/AboutLearningOrganization_service.js"></script>
+
+    <!--关于学会首页--组织机构二级列表 -->
+    <script src="areas/AboutLearning/AboutLearningOrganizationList/AboutLearningOrganizationList_route.js"></script>
+    <script src="areas/AboutLearning/AboutLearningOrganizationList/AboutLearningOrganizationList_controller.js"></script>
+    <script src="areas/AboutLearning/AboutLearningOrganizationList/AboutLearningOrganizationList_service.js"></script>
+
+    <!--我的收藏 ---index-->
+    <script src="areas/Collection/CollectionIndex/CollectionIndex_route.js"></script>
+    <script src="areas/Collection/CollectionIndex/CollectionIndex_controller.js"></script>
+    <script src="areas/Collection/CollectionIndex/CollectionIndex_service.js"></script>
+
+    <!--tab功能-->
+    <script src="areas/tab/tab_route.js"></script>
+    <script src="areas/tab/tab_controller.js"></script>
+    <script src="areas/tab/tab_service.js"></script>
+
+    <!--登录页面-->
+    <script src="areas/Login/Login_route.js"></script>
+    <script src="areas/Login/Login_controller.js"></script>
+    <script src="areas/Login/Login_service.js"></script>
+
+
+    <!--错误页面-->
+    <script src="areas/Error/Error_route.js"></script>
+    <script src="areas/Error/Error_controller.js"></script>
+    <script src="areas/Error/Error_service.js"></script>
+
+    <!--注册页面-->
+    <script src="areas/Register/Register_route.js"></script>
+    <script src="areas/Register/Register_controller.js"></script>
+    <script src="areas/Register/Register_service.js"></script>
+
+    <!--首页功能-->
+    <script src="areas/home/home_route.js"></script>
+    <script src="areas/home/home_controller.js"></script>
+    <script src="areas/home/home_service.js"></script>
+
+    <!--新闻中心-->
+    <script src="areas/newsCenter/newsCenter_route.js"></script>
+    <script src="areas/newsCenter/newsCenter_controller.js"></script>
+    <script src="areas/newsCenter/newsCenter_service.js"></script>
+
+    <!--航空新闻列表-->
+    <script src="areas/newsAviation/newsAviation_route.js"></script>
+    <script src="areas/newsAviation/newsAviation_controller.js"></script>
+    <script src="areas/newsAviation/newsAviation_service.js"></script>
+
+    <!--新闻详情-->
+    <script src="areas/AviationDetails/AviationDetails_route.js"></script>
+    <script src="areas/AviationDetails/AviationDetails_controller.js"></script>
+    <script src="areas/AviationDetails/AviationDetails_service.js"></script>
+
+    <!--广告详情-->
+    <script src="areas/AviationDetailsAd/AviationDetailsAd_route.js"></script>
+    <script src="areas/AviationDetailsAd/AviationDetailsAd_controller.js"></script>
+    <script src="areas/AviationDetailsAd/AviationDetailsAd_service.js"></script>
+
+    <!--学会动态-->
+    <script src="areas/LearningDynamics/LearningDynamics_route.js"></script>
+    <script src="areas/LearningDynamics/LearningDynamics_controller.js"></script>
+    <script src="areas/LearningDynamics/LearningDynamics_service.js"></script>
+
+    <!--学会动态列表-->
+    <script src="areas/LearningDynamicsList/LearningDynamicsList_route.js"></script>
+    <script src="areas/LearningDynamicsList/LearningDynamicsList_controller.js"></script>
+    <script src="areas/LearningDynamicsList/LearningDynamicsList_service.js"></script>
+
+    <!--通知通告-->
+    <script src="areas/noticeList/noticeList_route.js"></script>
+    <script src="areas/noticeList/noticeList_controller.js"></script>
+    <script src="areas/noticeList/noticeList_service.js"></script>
+
+
+    <!--new 会员中心首页--index-->
+    <script src="areas/Member/MemberIndex/MemberIndex_route.js"></script>
+    <script src="areas/Member/MemberIndex/MemberIndex_controller.js"></script>
+    <script src="areas/Member/MemberIndex/MemberIndex_service.js"></script>
+
+    <!--会员bind-->
+    <script src="areas/Member/memberBind/memberBind_route.js"></script>
+    <script src="areas/Member/memberBind/memberBind_controller.js"></script>
+    <script src="areas/Member/memberBind/memberBind_service.js"></script>
+
+    <!--会员详情-->
+    <script src="areas/Member/memberDetial/memberDetial_route.js"></script>
+    <script src="areas/Member/memberDetial/memberDetial_controller.js"></script>
+    <script src="areas/Member/memberDetial/memberDetial_service.js"></script>
+
+    <!--会员详情show-->
+    <script src="areas/Member/memberDetialEdit/memberDetialEdit_route.js"></script>
+    <script src="areas/Member/memberDetialEdit/memberDetialEdit_controller.js"></script>
+    <script src="areas/Member/memberDetialEdit/memberDetialEdit_service.js"></script>
+
+    <!--会员 修改密码 -->
+    <script src="areas/Member/MemberChangePassword/MemberChangePassword_route.js"></script>
+    <script src="areas/Member/MemberChangePassword/MemberChangePassword_controller.js"></script>
+    <script src="areas/Member/MemberChangePassword/MemberChangePassword_service.js"></script>
+
+    <!--会员 我的关注 -->
+    <script src="areas/Follow/followIndex/followIndex_route.js"></script>
+    <script src="areas/Follow/followIndex/followIndex_controller.js"></script>
+    <script src="areas/Follow/followIndex/followIndex_service.js"></script>
+
+    <!--会员 我的关注 -->
+    <script src="areas/WorkPlan/WorkPlanIndex/WorkPlanIndex_route.js"></script>
+    <script src="areas/WorkPlan/WorkPlanIndex/WorkPlanIndex_controller.js"></script>
+    <script src="areas/WorkPlan/WorkPlanIndex/WorkPlanIndex_service.js"></script>
+
+    <!--会员 我的关注 -->
+    <script src="areas/Follow/followList/followList_route.js"></script>
+    <script src="areas/Follow/followList/followList_controller.js"></script>
+    <script src="areas/Follow/followList/followList_service.js"></script>
+
+
+    <!--插件js-->
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/Swiper/dist/js/swiper.min.js"></script>
+    <script src="lib/jquery_lazyload/jquery.lazyload.js"></script>
+    <script src="lib/ionic-image-lazy-load/ionic-image-lazy-load.js"></script>
+    <script src="lib/jquery.cookie.js"></script>
+
+</head>
+<body ng-app="starter">
+    <ion-nav-view></ion-nav-view>
+</body>
+</html>

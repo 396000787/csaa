@@ -1,0 +1,36 @@
+2017-01-10 13:49:35 452 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：新建广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 61
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.InsterAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 103
+==============================================
+2017-01-10 13:50:37 801 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider
+模块名称：新建广告信息
+方法名称：InsterAdvertisement
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.Exception: 引发类型为“System.Exception”的异常。
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 33
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 61
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AdvertisementProvider.InsterAdvertisement(Advertisement Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AdvertisementProvider.cs:行号 103
+==============================================

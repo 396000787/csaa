@@ -1,0 +1,179 @@
+2017-01-16 11:03:29 897 AeronauticalSociety.BusinessLayer.Providers.AccountProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AccountProvider
+模块名称：管理员登陆认证
+方法名称：AdminCheckIn
+日志信息：System.FormatException: Base-64 字符数组或字符串的长度无效。
+   在 System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   在 System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   在 System.Convert.FromBase64String(String s)
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.EncryptPassword(String Password) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 394
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.AdminCheckIn(LoginInParam Param) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 458
+==============================================
+2017-01-16 12:39:34 919 AeronauticalSociety.BusinessLayer.Providers.AccountProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AccountProvider
+模块名称：登录认证
+方法名称：LoginCheck
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.state=1' at line 6
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 136
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.CheckIn(LoginInParam Param) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 421
+==============================================
+2017-01-16 12:39:47 483 AeronauticalSociety.BusinessLayer.Providers.AccountProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AccountProvider
+模块名称：登录认证
+方法名称：LoginCheck
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.state=1' at line 6
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteDataset(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 136
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteQuery[T](String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 59
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.CheckIn(LoginInParam Param) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 421
+==============================================
+2017-01-16 15:49:47 714 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-16 15:49:47 870 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-16 15:49:47 995 AeronauticalSociety.BusinessLayer.Providers.MySqlClient 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.MySqlClient
+模块名称：转换数据行
+方法名称：DataRowToObject
+日志信息：System.InvalidCastException: 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 AeronauticalSociety.BusinessLayer.Providers.ConvertionExtensions.ConvertTo(Object value, Type convertsionType) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 153
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.DataRowToObject[T](DataRow row) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 116
+==============================================
+2017-01-16 17:46:01 040 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================
+2017-01-16 17:47:35 988 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================
+2017-01-16 18:33:00 768 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================
+2017-01-16 18:36:01 864 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================
+2017-01-16 18:37:02 443 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================
+2017-01-16 18:37:39 950 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================
+2017-01-16 18:45:48 300 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================
+2017-01-16 18:46:10 087 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================
+2017-01-16 18:46:38 762 AeronauticalSociety.BusinessLayer.Providers.AccountProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.AccountProvider
+模块名称：修改用户信息
+方法名称：UpdateMember
+日志信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'professionID' in 'field list'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 TinyStack.Modules.iSqlHelper.MySQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\TinyStack.Modules.iSqlHelper\MySQLHelper.cs:行号 62
+   在 AeronauticalSociety.BusinessLayer.Providers.MySqlClient.ExecuteNonQuery(String cmdText, MySqlParameter[] cmdParms) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\MySqlClient.cs:行号 28
+   在 AeronauticalSociety.BusinessLayer.Providers.AccountProvider.UpdateMember(Member Data) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\AccountProvider.cs:行号 768
+==============================================
+2017-01-16 18:49:30 232 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider 日志类型：Error
+程序集名称：AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider
+模块名称：根据省ID 获取市
+方法名称：GetCityList
+日志信息：System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 AeronauticalSociety.BusinessLayer.Providers.NativePlaceProvider.GetCityList(String ParentID) 位置 c:\work\net\bj\AeronauticalSociety\Modules\BusinessLayer\Providers\NativePlaceProvider.cs:行号 55
+==============================================

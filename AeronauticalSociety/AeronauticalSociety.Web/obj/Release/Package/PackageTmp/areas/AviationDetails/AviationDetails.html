@@ -1,0 +1,22 @@
+<ion-view id="AviationDetails" view-title="详情" cache-view="false">
+    <!--头部搜索栏-->
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title"></h1>
+    </div>
+    <style>
+        #AviationDetails #AviationDetails-content {
+            margin-top: 43px;
+        }
+    </style>
+    <ion-content id="AviationDetails-content" class="scroll-content" scroll="true" style="padding:10px 20px 50px 20px;">
+        <div style="border-bottom:1px solid #ccc;padding-bottom:20px;">
+            <h1 style="font-size:20px;" ng-bind-html="headHtml"></h1>
+            <h6>{{writer}} {{time}}</h6>
+        </div>
+        <div style="font-size:16px;line-height:20px;padding:20px 0px;" ng-bind-html="Body"></div>
+    </ion-content>
+</ion-view>

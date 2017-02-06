@@ -1,0 +1,15 @@
+<ion-view id="AboutLearningShowHtml" view-title="学会章程" cache-view="false">
+    <div class="bar bar-header bar-zk">
+        <div class="header-left" ng-click="goBack()">
+            <span class="button btn-zk icon-left ion-chevron-left">
+            </span>
+        </div>
+        <h1 class="title" style="width:80%;margin:auto;">
+            {{title}}
+        </h1>
+    </div>
+    <ion-content style="padding:50px 20px 20px 20px;" id="AboutLearningShowHtml-content" class="scroll-content zk_content" scroll="true">
+        <!--<a href="tel:13764567708">打电话</a>-->
+        <p ng-bind-html="Body"></p>
+    </ion-content>
+</ion-view>

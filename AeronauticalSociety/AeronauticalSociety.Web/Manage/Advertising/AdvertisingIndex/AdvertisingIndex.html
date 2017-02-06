@@ -1,0 +1,35 @@
+﻿<div>
+    <div class="text-right">
+        <span class="btn btn-default" ng-click="new()">发布</span>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>是否跳转</th>
+                <th>跳转地址</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in listData">
+                <td>
+                    {{item.title}}
+                </td>
+                <td>
+                    <img style="height:80px;" ng-src="{{item.imageUrl}}" />
+                </td>
+                <td>
+                    {{item.targetUrl}}
+                </td>
+                <td>
+                    <span class="btn btn-link" ng-click="Disable(item)" ng-show="{{item.isVail}}">下架</span>
+                    <span class="btn btn-link" ng-click="StartAdvertisement(item)" ng-show="{{!item.isVail}}">启用</span>
+                    <span class="btn btn-link" ng-click="Delete(item)">删除</span>
+                    <span class="btn btn-link" ng-click="Edit(item)">编辑</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="page"></div>
+</div>
